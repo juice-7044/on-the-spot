@@ -59,6 +59,7 @@ export default function Footer() {
                 { label: "About Us", href: "#about" },
                 { label: "Hours", href: "#hours" },
                 { label: "Contact", href: "#contact" },
+                { label: "Careers", href: "/careers" },
               ].map((link) => (
                 <li key={link.label}>
                   <a
