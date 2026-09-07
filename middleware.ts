@@ -16,7 +16,7 @@ function validSession(value?: string) {
   } catch { return false }
 }
 
-export function proxy(request: NextRequest) {
+export function middleware(request: NextRequest) {
   if (request.nextUrl.pathname === '/admin/login') return NextResponse.next()
   if (!validSession(request.cookies.get(COOKIE_NAME)?.value)) return NextResponse.redirect(new URL('/admin/login', request.url))
   return NextResponse.next()
