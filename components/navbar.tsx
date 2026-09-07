@@ -21,12 +21,12 @@ const NAV_LINKS: NavLink[] = [
     children: [
       { label: "Gallery", href: "#gallery" },
       { label: "FAQ", href: "#faq" },
+      { label: "Hours", href: "#hours" },
+      { label: "Contact", href: "#contact" },
     ],
   },
   { label: "24/7 Roadside", href: "#roadside" },
   { label: "Service Area", href: "#service-area" },
-  { label: "Hours", href: "#hours" },
-  { label: "Contact", href: "#contact" },
   { label: "Careers", href: "/careers" },
   { label: "Reviews", href: "https://g.page/r/CRevmpAtetKCEBM/review", external: true },
 ]
