@@ -44,6 +44,7 @@ export async function generateMetadata({ params }: TownPageProps): Promise<Metad
       siteName: "On The Spot Repair Service & Tires",
       locale: "en_US",
       type: "website",
+      images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'On The Spot Repair Service & Tires — 24/7 Mobile Truck & Tire Repair' }],
     },
   }
 }

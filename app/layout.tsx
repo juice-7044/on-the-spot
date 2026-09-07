@@ -92,7 +92,7 @@ const organizationJsonLd = {
   "alternateName": "On The Spot Repair Services & Tires, Inc.",
   "url": SITE_URL,
   "logo": `${SITE_URL}/logo.png`,
-  "image": `${SITE_URL}/og-image.png`,
+  "image": `${SITE_URL}/og-image.jpg`,
   "telephone": "+1-478-244-7008",
   "email": "onthespotrepair23@gmail.com",
   "address": {
@@ -144,7 +144,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: '/og-image.png',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'On The Spot Repair Service & Tires — 24/7 Mobile Truck & Tire Repair, Unadilla, GA',
@@ -156,7 +156,7 @@ export const metadata: Metadata = {
     title: 'On The Spot Repair Services & Tires',
     description:
       '24/7 mobile truck & tire repair in Unadilla, GA and across the I-75 corridor. Semis, trailers, reefers, RVs & cars.',
-    images: ['/og-image.png'],
+    images: ['/og-image.jpg'],
   },
   icons: {
     icon: '/logo.png',

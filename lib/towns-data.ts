@@ -3,8 +3,8 @@
 // Used by the homepage schema, the Reviews section, and every town-page schema so the
 // aggregateRating markup never conflicts across the site.
 export const SITE_URL = "https://www.onthespotrepairservicestires.com"
-export const GBP_RATING = 4.3
-export const GBP_REVIEW_COUNT = 29
+export const GBP_RATING = 4.4
+export const GBP_REVIEW_COUNT = 35
 export const GBP_REVIEW_URL = "https://g.page/r/CRevmpAtetKCEBM/review"
 
 export interface TownData {
