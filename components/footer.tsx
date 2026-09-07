@@ -82,6 +82,7 @@ export default function Footer() {
               {[
                 { label: "Unadilla, GA", href: "/unadilla" },
                 { label: "Perry, GA", href: "/perry" },
+                { label: "Warner Robins, GA", href: "/warner-robins" },
                 { label: "Vienna, GA", href: "/vienna" },
                 { label: "Hawkinsville, GA", href: "/hawkinsville" },
                 { label: "Cordele, GA", href: "/cordele" },

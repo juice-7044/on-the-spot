@@ -4,6 +4,7 @@ import { MapPin, Clock, ArrowRight } from "lucide-react"
 const SERVICE_TOWNS = [
   { name: "Unadilla", slug: "unadilla", distance: "0", note: "Home Base" },
   { name: "Perry", slug: "perry", distance: "20", note: "I-75 Corridor" },
+  { name: "Warner Robins", slug: "warner-robins", distance: "40", note: "Robins AFB / GA-247" },
   { name: "Vienna", slug: "vienna", distance: "15", note: "US-41 Corridor" },
   { name: "Hawkinsville", slug: "hawkinsville", distance: "18", note: "US-129 Corridor" },
   { name: "Cordele", slug: "cordele", distance: "25", note: "I-75 Exit 101" },

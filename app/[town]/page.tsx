@@ -90,14 +90,29 @@ export default async function TownPage({ params }: TownPageProps) {
             name: "Georgia",
           },
         }))
-      : {
-          "@type": "City",
-          name: townData.name,
-          containedInPlace: {
-            "@type": "State",
-            name: "Georgia",
+      : townData.slug === "warner-robins"
+        ? [
+            {
+              "@type": "City",
+              name: "Warner Robins, GA",
+              containedInPlace: {
+                "@type": "AdministrativeArea",
+                name: "Houston County, Georgia",
+              },
+            },
+            {
+              "@type": "AdministrativeArea",
+              name: "Houston County, Georgia",
+            },
+          ]
+        : {
+            "@type": "City",
+            name: townData.name,
+            containedInPlace: {
+              "@type": "State",
+              name: "Georgia",
+            },
           },
-        },
     serviceArea: {
       "@type": "GeoCircle",
       geoMidpoint: {
@@ -371,6 +386,7 @@ export default async function TownPage({ params }: TownPageProps) {
                   { slug: "vienna" },
                   { slug: "hawkinsville" },
                   { slug: "perry" },
+                  { slug: "warner-robins" },
                   { slug: "montezuma" },
                   { slug: "cordele" },
                 ].map(({ slug, note }) => {
