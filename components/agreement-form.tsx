@@ -1,0 +1,9 @@
+'use client'
+
+import { FormEvent, useState } from 'react'
+
+export default function AgreementForm({ token }: { token: string }) { const [status, setStatus] = useState('idle'); const [error, setError] = useState('')
+  async function submit(event: FormEvent<HTMLFormElement>) { event.preventDefault(); setStatus('loading'); setError(''); const name = new FormData(event.currentTarget).get('signatureName'); const response = await fetch('/api/agreements/sign', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ token, signatureName: name }) }); const result = await response.json(); if (!response.ok) { setError(result.error || 'Unable to sign agreement.'); setStatus('idle'); return }; setStatus('success') }
+  if (status === 'success') return <p className="mt-8 border border-primary/40 p-5 text-primary">Your agreement has been signed. A confirmation email is on its way.</p>
+  return <form onSubmit={submit} className="mt-8 border border-border bg-card p-6"><label className="block font-bold">Electronic signature<input required name="signatureName" className="mt-2 w-full border border-input bg-background px-4 py-3 font-normal" placeholder="Type your full legal name" /></label><p className="mt-4 text-sm leading-6 text-muted-foreground">By submitting, you agree that this typed name is your electronic signature.</p>{error && <p role="alert" className="mt-4 text-sm text-destructive">{error}</p>}<button disabled={status === 'loading'} className="mt-6 bg-primary px-5 py-3 font-bold uppercase text-primary-foreground disabled:opacity-60">{status === 'loading' ? 'Signing…' : 'Sign agreement'}</button></form>
+}
