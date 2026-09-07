@@ -1,4 +1,4 @@
-const readRequiredEmail = (key: "RECRUITING_FROM_EMAIL" | "RECRUITING_OWNER_EMAIL") => {
+const readRequiredEmail = (key: "RECRUITING_FROM_EMAIL" | "RECRUITING_REPLY_TO" | "RECRUITING_OWNER_EMAIL") => {
   const value = process.env[key]?.trim()
 
   if (!value) {

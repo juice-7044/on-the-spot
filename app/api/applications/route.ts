@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
 import { applicationSchema } from '@/lib/recruiting'
+import { getRecruitingEmailConfig } from '@/lib/recruiting-email'
 
 export const runtime = 'nodejs'
 
@@ -47,9 +48,10 @@ export async function POST(request: Request) {
     if (error || !data) return NextResponse.json({ error: 'We could not save your application. Please call us directly.' }, { status: 500 })
 
     const resend = new Resend(process.env.RESEND_API_KEY)
-    const from = `On The Spot Recruiting <recruiting@${process.env.RESEND_EMAIL_DOMAIN || 'onthespotrepairservicestires.com'}>`
+    const recruiting = getRecruitingEmailConfig()
+    const from = `On The Spot Hiring <${recruiting.from}>`
     const adminUrl = `${new URL(request.url).origin}/admin/applications/${data.id}`
-    const internal = await resend.emails.send({ from, to: ['onthespotrepair23@gmail.com'], subject: `New Job Application — ${parsed.data.fullName} / ${parsed.data.position}`, text: `A new application has been submitted.
+    const internal = await resend.emails.send({ from, to: [recruiting.owner], replyTo: recruiting.replyTo, subject: `New Job Application — ${parsed.data.fullName} / ${parsed.data.position}`, text: `A new application has been submitted.
 Name: ${parsed.data.fullName}
 Phone: ${parsed.data.phone}
 Email: ${parsed.data.email}
@@ -63,7 +65,7 @@ Reference 1: ${parsed.data.reference1Name || 'None'} — ${parsed.data.reference
 Reference 2: ${parsed.data.reference2Name || 'None'} — ${parsed.data.reference2Phone || 'n/a'}
 Resume: ${resumeUrl || 'Not provided'}
 View application: ${adminUrl}` }, { idempotencyKey: `application/internal/${data.id}` })
-    const candidate = await resend.emails.send({ from, to: [parsed.data.email], subject: 'Application received — On The Spot Repair', text: `Thanks ${parsed.data.fullName}. We received your application and will review it shortly.` }, { idempotencyKey: `application/candidate/${data.id}` })
+    const candidate = await resend.emails.send({ from, to: [parsed.data.email], replyTo: recruiting.replyTo, subject: 'Application received — On The Spot Repair', text: `Thanks ${parsed.data.fullName}. We received your application and will review it shortly.` }, { idempotencyKey: `application/candidate/${data.id}` })
     if (internal.error || candidate.error) console.error('[v0] application email failed', internal.error?.message || candidate.error?.message)
     return NextResponse.json({ ok: true, id: data.id })
   } catch (error) {
