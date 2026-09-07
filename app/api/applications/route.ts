@@ -12,13 +12,18 @@ export async function POST(request: Request) {
       fullName: formData.get('fullName'), phone: formData.get('phone'), email: formData.get('email'),
       experienceYears: formData.get('experienceYears'), position: formData.get('position'),
       hasTools: formData.get('hasTools') === 'true', hasCdl: formData.get('hasCdl') === 'true',
-      startDate: formData.get('startDate') || undefined, reference1Name: formData.get('reference1Name') || undefined,
+      startDate: formData.get('startDate') || undefined, reference1Name: formData.get('reference1Name') || undefined, smsConsent: formData.get('smsConsent') === 'true', submissionKey: formData.get('submissionKey') || undefined,
       reference1Phone: formData.get('reference1Phone') || undefined, reference2Name: formData.get('reference2Name') || undefined,
       reference2Phone: formData.get('reference2Phone') || undefined, message: formData.get('message') || undefined,
     })
     if (!parsed.success) return NextResponse.json({ error: 'Please review the highlighted application fields.' }, { status: 400 })
 
     const supabase = createServerSupabaseClient()
+    if (formData.get('website')) return NextResponse.json({ ok: true })
+    if (parsed.data.submissionKey) {
+      const existing = await supabase.from('applications').select('id').eq('submission_key', parsed.data.submissionKey).maybeSingle()
+      if (existing.data?.id) return NextResponse.json({ ok: true, id: existing.data.id, duplicate: true })
+    }
     const file = formData.get('resume')
     let resumeUrl: string | null = null
     if (file instanceof File && file.size > 0) {
@@ -37,7 +42,7 @@ export async function POST(request: Request) {
       has_tools: parsed.data.hasTools, has_cdl: parsed.data.hasCdl, start_date: parsed.data.startDate || null,
       resume_url: resumeUrl, reference_1_name: parsed.data.reference1Name || null, reference_1_phone: parsed.data.reference1Phone || null,
       reference_2_name: parsed.data.reference2Name || null, reference_2_phone: parsed.data.reference2Phone || null,
-      message: parsed.data.message || null,
+      message: parsed.data.message || null, sms_consent: parsed.data.smsConsent, submission_key: parsed.data.submissionKey || null,
     }).select('id').single()
     if (error || !data) return NextResponse.json({ error: 'We could not save your application. Please call us directly.' }, { status: 500 })
 

@@ -14,6 +14,8 @@ export const applicationSchema = z.object({
   reference2Name: z.string().trim().max(120).optional(),
   reference2Phone: z.string().trim().max(30).optional(),
   message: z.string().trim().max(2000).optional(),
+  smsConsent: z.boolean().default(false),
+  submissionKey: z.string().uuid().optional(),
 })
 
 export type ApplicationInput = z.infer<typeof applicationSchema>

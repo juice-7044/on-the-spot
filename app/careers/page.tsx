@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-import CareersForm from '@/components/careers-form'
 import CareersPage, { CareersJsonLd } from '@/components/careers-page'
 
 export const metadata: Metadata = {
@@ -22,9 +21,6 @@ export default function CareersRoute() {
       <CareersJsonLd />
       <Navbar />
       <CareersPage />
-      <section className="border-t border-border bg-background">
-        <CareersForm />
-      </section>
       <Footer />
     </>
   )

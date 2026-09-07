@@ -19,8 +19,10 @@ export async function PATCH(request: Request) {
   const supabase = createServerSupabaseClient()
   const { data: application, error } = await supabase.from('applications').update({ status: body.status, notes: typeof body.notes === 'string' ? body.notes.slice(0, 5000) : undefined }).eq('id', body.id).select('full_name,email,position').maybeSingle()
   if (error || !application) return NextResponse.json({ error: 'Unable to update application.' }, { status: 500 })
+  const resend = new (await import('resend')).Resend(process.env.RESEND_API_KEY)
+  const from = `On The Spot Repair <onthespot@${process.env.RESEND_EMAIL_DOMAIN || 'onthespotrepairservicestires.com'}>`
   if (body.status === 'Rejected') {
-    const sent = await new (await import('resend')).Resend(process.env.RESEND_API_KEY).emails.send({ from: `On The Spot Repair <onthespot@${process.env.RESEND_EMAIL_DOMAIN || 'onthespotrepairservicestires.com'}>`, to: [application.email], subject: 'Update on Your Application — On The Spot Repair Service & Tires', text: `Hi ${application.full_name},
+    const sent = await resend.emails.send({ from, to: [application.email], subject: 'Update on Your Application — On The Spot Repair Service & Tires', text: `Hi ${application.full_name},
 Thank you for your interest in joining On The Spot Repair Service & Tires and for taking the time to apply.
 After careful review, we have decided to move forward with another candidate for the ${application.position} role. This was not an easy decision — we received many strong applications.
 We will keep your information on file for future openings and encourage you to check back with us.
@@ -32,6 +34,25 @@ On The Spot Repair Service & Tires
 Unadilla, GA
 478-244-7008` }, { idempotencyKey: `application/rejected/${body.id}` })
     if (sent.error) console.error('[v0] rejection email failed', sent.error.message)
+  }
+  if (body.status === 'Accepted') {
+    const accepted = await supabase.from('applications').select('accepted_at,onboarding_sent_at').eq('id', body.id).single()
+    if (!accepted.data?.onboarding_sent_at) {
+      const sent = await resend.emails.send({ from, to: [application.email], subject: 'You’re Accepted — Next Steps with On The Spot Repair', text: `Hi ${application.full_name},
+
+Congratulations! We’re excited to move forward with you for the ${application.position} position at On The Spot Repair Service & Tires.
+
+Our team will contact you with onboarding details, your start date, and any documents we need from you.
+
+Please call or text us at 478-244-7008 with any questions.
+
+Best,
+On The Spot Repair Team
+On The Spot Repair Service & Tires
+Unadilla, GA` }, { idempotencyKey: `application/accepted/${body.id}` })
+      if (!sent.error) await supabase.from('applications').update({ accepted_at: new Date().toISOString(), onboarding_sent_at: new Date().toISOString() }).eq('id', body.id)
+      else console.error('[v0] acceptance email failed', sent.error.message)
+    }
   }
   return NextResponse.json({ ok: true })
 }
