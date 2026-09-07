@@ -56,7 +56,28 @@ export const careersFaqs = faqs
 export const careersBenefits = benefits
 
 export function CareersJsonLd() {
-  const jobPosting = { "@context": "https://schema.org", "@type": "JobPosting", title: "Automotive & Diesel Mechanic", description: "Join On The Spot Repair Service & Tires as an Automotive & Diesel Mechanic serving Unadilla and Middle Georgia.", datePosted: new Date().toISOString().slice(0, 10), validThrough: new Date(Date.now() + 30 * 86400000).toISOString(), employmentType: "FULL_TIME", hiringOrganization: { "@type": "Organization", name: "On The Spot Repair Service & Tires", sameAs: "https://www.onthespotrepairservicestires.com", logo: "https://www.onthespotrepairservicestires.com/logo.png" }, jobLocation: { "@type": "Place", address: { "@type": "PostalAddress", streetAddress: "990 2nd Street", addressLocality: "Unadilla", addressRegion: "GA", postalCode: "31091", addressCountry: "US" } }, baseSalary: { "@type": "MonetaryAmount", currency: "USD", value: { "@type": "QuantitativeValue", minValue: 25, maxValue: 35, unitText: "HOUR" } } }
+  const jobPosting = {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: "Automotive & Diesel Mechanic",
+    description: "Join On The Spot Repair Service & Tires in Unadilla, GA. We're hiring experienced mechanics to work on passenger cars, light trucks, and heavy-duty diesel semis. $1,000–$1,500/week. 40+ hours guaranteed. Family-owned shop, not a corporate chain. Must have own hand tools, valid driver's license, and reliable work ethic. CDL a plus.",
+    identifier: { "@type": "PropertyValue", name: "On The Spot Repair Service & Tires", value: "mechanic-001" },
+    hiringOrganization: { "@type": "Organization", name: "On The Spot Repair Service & Tires", sameAs: "https://www.onthespotrepairservicetires.com", logo: "https://www.onthespotrepairservicetires.com/logo.jpg" },
+    industry: "Automotive Repair",
+    employmentType: "FULL_TIME",
+    workHours: "Shop hours: Monday–Saturday, 8am–6pm. Rotating on-call for 24/7 emergency service.",
+    datePosted: "2026-09-06",
+    validThrough: "2026-10-06",
+    jobLocation: { "@type": "Place", address: { "@type": "PostalAddress", streetAddress: "YOUR STREET ADDRESS", addressLocality: "Unadilla", addressRegion: "GA", postalCode: "31091", addressCountry: "US" } },
+    baseSalary: { "@type": "MonetaryAmount", currency: "USD", value: { "@type": "QuantitativeValue", minValue: 1000, maxValue: 1500, unitText: "WEEK" } },
+    jobBenefits: "Tool allowance ($1,000/year), paid ASE certification, 40+ hours guaranteed, clean organized bays, family-owned shop, no mandatory weekend shop work",
+    skills: "Automotive repair, diesel engine repair, heavy truck repair, brake systems, electrical diagnostics, tire service, engine rebuilds",
+    qualifications: "Must have own hand tools, valid driver's license, reliable and punctual, professional attitude. CDL a plus. Experience with passenger cars and trucks required.",
+    experienceRequirements: "Experienced mechanic preferred. Willing to train the right candidate with strong mechanical aptitude.",
+    applicationContact: { "@type": "ContactPoint", telephone: "+1-XXX-XXX-XXXX", contactType: "Hiring", availableLanguage: "English" },
+    directApply: true,
+  }
+
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jobPosting) }} />
 }
 
