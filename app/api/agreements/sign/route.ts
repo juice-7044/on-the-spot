@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { createServerSupabaseClient } from '@/lib/supabase/server'
+import { getRecruitingEmailConfig } from '@/lib/recruiting-email'
 
 export async function POST(request: Request) {
   const { token, signatureName } = await request.json()
@@ -13,8 +14,9 @@ export async function POST(request: Request) {
   const { error } = await supabase.from('agreements').update({ signed_at: new Date().toISOString(), signature_name: signatureName.trim(), ip_address: request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || null, user_agent: request.headers.get('user-agent') || null }).eq('id', agreement.id)
   if (error || !application) return NextResponse.json({ error: 'Unable to save your signature.' }, { status: 500 })
   await supabase.from('applications').update({ status: 'Signed' }).eq('id', agreement.id)
-  const from = `On The Spot Recruiting <recruiting@${process.env.RESEND_EMAIL_DOMAIN || 'onthespotrepairservicestires.com'}>`
-  const email = await new Resend(process.env.RESEND_API_KEY).emails.send({ from, to: [application.email, 'onthespotrepair23@gmail.com'], subject: `Agreement Signed — ${application.full_name} / ${application.position}`, text: `A signed employment agreement has been submitted.
+  const recruiting = getRecruitingEmailConfig()
+  const from = `On The Spot Hiring <${recruiting.from}>`
+  const email = await new Resend(process.env.RESEND_API_KEY).emails.send({ from, to: [application.email, recruiting.owner], replyTo: recruiting.replyTo, subject: `Agreement Signed — ${application.full_name} / ${application.position}`, text: `A signed employment agreement has been submitted.
 Name: ${application.full_name}
 Position: ${application.position}
 Signed at: ${new Date().toISOString()}
