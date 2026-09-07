@@ -27,6 +27,7 @@ const NAV_LINKS: NavLink[] = [
   { label: "Service Area", href: "#service-area" },
   { label: "Hours", href: "#hours" },
   { label: "Contact", href: "#contact" },
+  { label: "Careers", href: "/careers" },
   { label: "Reviews", href: "https://g.page/r/CRevmpAtetKCEBM/review", external: true },
 ]
 
