@@ -22,8 +22,8 @@ export async function POST(request: Request) {
     const file = formData.get('resume')
     let resumeUrl: string | null = null
     if (file instanceof File && file.size > 0) {
-      if (file.size > 5 * 1024 * 1024 || !['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'].includes(file.type)) {
-        return NextResponse.json({ error: 'Resume must be a PDF or Word document under 5MB.' }, { status: 400 })
+      if (file.size > 5 * 1024 * 1024 || file.type !== 'application/pdf' || !file.name.toLowerCase().endsWith('.pdf')) {
+        return NextResponse.json({ error: 'Resume must be a PDF under 5MB.' }, { status: 400 })
       }
       const path = `${crypto.randomUUID()}-${file.name.replace(/[^a-zA-Z0-9._-]/g, '')}`
       const upload = await supabase.storage.from('resumes').upload(path, file, { contentType: file.type, upsert: false })
@@ -43,7 +43,17 @@ export async function POST(request: Request) {
 
     const resend = new Resend(process.env.RESEND_API_KEY)
     const from = `On The Spot Recruiting <recruiting@${process.env.RESEND_EMAIL_DOMAIN || 'onthespotrepairservicestires.com'}>`
-    const internal = await resend.emails.send({ from, to: ['onthespotrepair23@gmail.com'], subject: `New ${parsed.data.position} application: ${parsed.data.fullName}`, text: `${parsed.data.fullName} applied for ${parsed.data.position}. Email: ${parsed.data.email}. Phone: ${parsed.data.phone}.` }, { idempotencyKey: `application/internal/${data.id}` })
+    const internal = await resend.emails.send({ from, to: ['onthespotrepair23@gmail.com'], subject: `New Job Application — ${parsed.data.fullName} / ${parsed.data.position}`, text: `${parsed.data.fullName} applied for ${parsed.data.position}.
+
+Email: ${parsed.data.email}
+Phone: ${parsed.data.phone}
+Experience: ${parsed.data.experienceYears} years
+Own tools: ${parsed.data.hasTools ? 'Yes' : 'No'}
+CDL: ${parsed.data.hasCdl ? 'Yes' : 'No'}
+Start date: ${parsed.data.startDate || 'Not provided'}
+References: ${parsed.data.reference1Name || 'None'} (${parsed.data.reference1Phone || 'n/a'}); ${parsed.data.reference2Name || 'None'} (${parsed.data.reference2Phone || 'n/a'})
+Message: ${parsed.data.message || 'None'}
+Resume path: ${resumeUrl || 'None'}` }, { idempotencyKey: `application/internal/${data.id}` })
     const candidate = await resend.emails.send({ from, to: [parsed.data.email], subject: 'Application received — On The Spot Repair', text: `Thanks ${parsed.data.fullName}. We received your application and will review it shortly.` }, { idempotencyKey: `application/candidate/${data.id}` })
     if (internal.error || candidate.error) console.error('[v0] application email failed', internal.error?.message || candidate.error?.message)
     return NextResponse.json({ ok: true, id: data.id })
