@@ -16,7 +16,18 @@ export async function POST(request: Request) {
   if (error) return NextResponse.json({ error: 'Unable to create agreement.' }, { status: 500 })
   const url = `${new URL(request.url).origin}/agreement/${token}`
   const from = `On The Spot Recruiting <recruiting@${process.env.RESEND_EMAIL_DOMAIN || 'onthespotrepairservicestires.com'}>`
-  const sent = await new Resend(process.env.RESEND_API_KEY).emails.send({ from, to: [application.email], subject: 'Employment agreement — On The Spot Repair', text: `Hi ${application.full_name},\n\nPlease review and sign your ${application.position} employment agreement: ${url}` }, { idempotencyKey: `agreement/${application.id}/${token}` })
+  const sent = await new Resend(process.env.RESEND_API_KEY).emails.send({ from, to: [application.email], subject: 'On The Spot Repair — Please Sign Your Employment Agreement', text: `Hi ${application.full_name},
+
+Congratulations! We'd like to move forward with your application for the ${application.position} position at On The Spot Repair Service & Tires.
+Please review and sign your employment agreement here:
+${url}
+This link expires in 7 days.
+If you have any questions, call or text us at 478-244-7008.
+
+Best,
+On The Spot Repair Team
+On The Spot Repair Service & Tires
+Unadilla, GA` }, { idempotencyKey: `agreement/${application.id}/${token}` })
   if (sent.error) return NextResponse.json({ error: 'Agreement created, but email could not be sent.' }, { status: 502 })
   await supabase.from('applications').update({ status: 'Agreement Sent' }).eq('id', application.id)
   return NextResponse.json({ ok: true, url })
