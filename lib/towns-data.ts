@@ -294,6 +294,101 @@ Perry runs on delivery, and the trucks behind that delivery are the ones we keep
     ]
   },
 
+  "warner-robins": {
+    slug: "warner-robins",
+    name: "Warner Robins",
+    county: "Houston",
+    distance: "40",
+    miles: "30",
+    highway: "I-75 & GA-247 / Russell Parkway",
+    landmarks: [
+      "Robins Air Force Base",
+      "Museum of Aviation",
+      "GA-247 / Russell Parkway",
+      "Houston County industrial district"
+    ],
+    industries: ["Defense logistics", "Commercial trucking", "Manufacturing", "Distribution", "Fleet operations"],
+    competitiveGap: "Warner Robins has plenty of traffic but limited after-hours heavy-duty repair — we answer 24/7 from Unadilla",
+    metaTitle: "Truck Repair Warner Robins GA | 24 Hour Truck Repair | On The Spot",
+    metaDescription: "Truck repair Warner Robins GA with 24 hour truck repair, mobile truck repair Houston County GA, semi truck breakdown response near Robins Air Force Base. Call On The Spot now!",
+    h1Title: "24-Hour Truck & Tire Repair Near Warner Robins, GA",
+    heroIntro: "Need truck repair Warner Robins GA drivers can count on? On The Spot Repair Service & Tires provides 24 hour truck repair and mobile roadside service throughout Houston County, just 30 miles south in Unadilla via I-75 and GA-247.",
+    heroSecondary: "We respond to semi truck breakdowns, fleet emergencies, and tire blowouts around Robins Air Force Base, the Museum of Aviation, the industrial district, and the busy Russell Parkway corridor. No tow needed — we come to you day or night.",
+    localContent: `**Supporting the Trucking Traffic Around Robins Air Force Base**
+
+Warner Robins is one of Middle Georgia's busiest logistics centers. **Robins Air Force Base** is one of the largest Air Force logistics bases in the country, and the commercial trucks, contractors, supply vehicles, and fleet traffic supporting it keep the GA-247 corridor moving every hour of the day.
+
+When a truck breaks down near the base, along Russell Parkway, or on the route from Macon, you need a mobile mechanic who answers after regular shop hours. On The Spot Repair Service & Tires dispatches from Unadilla — about **30 miles and 35–40 minutes** away — via I-75 and GA-247, bringing commercial tires, air-brake parts, jump packs, and diagnostic equipment directly to your location.
+
+**I-75 Corridor Coverage to Warner Robins**
+
+Our route runs north from Unadilla on I-75 toward the Warner Robins exits, then east along GA-247 and Russell Parkway. We cover:
+
+- I-75 Exit 146 and the Byron / Macon approach
+- GA-247 and Russell Parkway commercial traffic
+- Robins Air Force Base access roads and contractor lots
+- Warner Robins industrial and distribution districts
+- Loading docks, truck stops, fleet yards, and roadside shoulders
+
+**Museum of Aviation & Houston County Industrial District**
+
+The **Museum of Aviation** and the surrounding base community draw steady visitor, service, and delivery traffic. Across Houston County's industrial district, manufacturers, parts suppliers, warehouses, and defense contractors depend on trucks arriving on schedule. We provide mobile truck repair Houston County GA businesses can call when a vehicle will not start, a trailer loses a tire, or a loaded rig cannot safely continue.
+
+**The Trucks That Keep Warner Robins Running**
+
+Warner Robins runs on logistics: parts deliveries to the base, contractor trucks, warehouse reefers, school and municipal vehicles, construction rigs, and box trucks restocking businesses along Russell Parkway. A breakdown can delay a critical shipment or leave a fleet vehicle blocking a loading dock. Our 24/7 response keeps those trucks moving and supports the drivers, dispatchers, and fleet managers who keep Houston County on schedule.
+
+We also regularly reach nearby **Centerville, Bonaire, and Kathleen**, along with Perry and the I-75 corridor, for mobile tire service and emergency repairs.
+
+**Summer Heat, Base Traffic & Fleet Downtime**
+
+Houston County heat is hard on steer tires, batteries, and cooling systems, especially for trucks idling in traffic or making repeated trips between Macon, the base, and local warehouses. We handle the blowouts, dead batteries, overheating, brake issues, and electrical faults that do not wait for Monday morning.
+
+**Distance & Directions from Warner Robins**
+
+Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the drive is approximately **30 miles / 35–40 minutes via I-75 and GA-247 / Russell Parkway**. For a roadside emergency, do not wait to reach the shop — call 478-244-7008 and we will come to you.`,
+    spanishContent: `**Reparación de Camiones en Warner Robins, GA — Servicio 24 Horas**
+
+¿Tiene una avería de camión cerca de Warner Robins o Robins Air Force Base? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas, los 7 días de la semana en el condado de Houston. Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-244-7008.`,
+    commonCalls: [
+      "Semi truck breakdowns near Robins Air Force Base",
+      "Steer and drive tire blowouts on I-75 and GA-247",
+      "Trailer brake and air-line failures at loading docks",
+      "Dead batteries for contractor and fleet vehicles",
+      "Engine overheating in Houston County traffic",
+      "DOT inspection repairs and out-of-service violations"
+    ],
+    faqs: [
+      {
+        question: "Where can I find truck repair in Warner Robins, GA?",
+        answer: "On The Spot Repair Service & Tires provides 24/7 mobile truck repair throughout Warner Robins and Houston County. We dispatch from Unadilla, about 30 miles away via I-75 and GA-247, to Robins Air Force Base, Russell Parkway, industrial districts, loading docks, and roadside locations. Call 478-244-7008 anytime."
+      },
+      {
+        question: "Is there 24 hour truck repair near Robins Air Force Base?",
+        answer: "Yes. We provide 24 hour truck repair near Robins Air Force Base for semi truck breakdowns, tire blowouts, brake problems, jump-starts, and emergency fleet repairs. Our mobile units respond day or night throughout Warner Robins and Houston County."
+      },
+      {
+        question: "Do you offer mobile truck repair in Houston County, GA?",
+        answer: "Yes. Our mobile truck repair Houston County GA service reaches Warner Robins, Robins Air Force Base, Centerville, Bonaire, Kathleen, Perry, and the surrounding I-75 and GA-247 corridors. We bring commercial tires and repair equipment to your truck instead of requiring a tow."
+      },
+      {
+        question: "How far is your shop from Warner Robins?",
+        answer: "Our shop is at 990 2nd Street in Unadilla, approximately 30 miles or 35–40 minutes from Warner Robins via I-75 and GA-247 / Russell Parkway. For breakdowns, call 478-244-7008 for mobile service at your location."
+      }
+    ],
+    services: [
+      { service: "24/7 Mobile Truck & Tire Repair", availability: "Yes — Warner Robins and Houston County" },
+      { service: "I-75 & GA-247 Roadside Service", availability: "Yes — mobile dispatch" },
+      { service: "Semi-Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
+      { service: "Brake Service & DOT Inspections", availability: "Yes — emergency or scheduled" },
+      { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
+      { service: "Contractor & Base-Support Fleet Service", availability: "Yes — priority dispatch available" },
+      { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
+    ],
+    schemaDescription: "Truck repair Warner Robins GA and 24 hour mobile truck repair Houston County GA. Emergency semi truck breakdown service near Robins Air Force Base, GA-247, Russell Parkway, and I-75.",
+    coordinates: { lat: 32.613, lng: -83.624 }
+  },
+
   vienna: {
     slug: "vienna",
     name: "Vienna",
