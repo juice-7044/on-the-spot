@@ -196,6 +196,13 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="6aa8923c8eb25ab4caa486fb"
+          data-source="WEB_USER"
+          strategy="afterInteractive"
+        />
       </head>
       <body className="font-sans antialiased bg-background text-foreground">
         {children}
