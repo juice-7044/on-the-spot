@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Script from "next/script"
 import { Phone, Mail, MapPin } from "lucide-react"
 
 function FacebookIcon({ size = 14 }: { size?: number }) {
@@ -165,6 +166,13 @@ export default function Footer() {
           </p>
         </div>
       </div>
+      <Script
+        src="https://widgets.leadconnectorhq.com/loader.js"
+        data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+        data-widget-id="6aa8923c8eb25ab4caa486fb"
+        data-source="WEB_USER"
+        strategy="afterInteractive"
+      />
     </footer>
   )
 }
