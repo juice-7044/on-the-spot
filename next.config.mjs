@@ -5,12 +5,12 @@ const contentSecurityPolicy = `
   form-action 'self';
   frame-ancestors 'none';
   object-src 'none';
-  script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com;
-  style-src 'self' 'unsafe-inline';
-  img-src 'self' data: blob: https://hebbkx1anhila5yf.public.blob.vercel-storage.com https://www.google-analytics.com;
-  font-src 'self' data:;
-  connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://vitals.vercel-insights.com;
-  frame-src https://www.google.com https://maps.google.com;
+  script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://va.vercel-scripts.com https://widgets.leadconnectorhq.com;
+  style-src 'self' 'unsafe-inline' https://widgets.leadconnectorhq.com;
+  img-src 'self' data: blob: https://hebbkx1anhila5yf.public.blob.vercel-storage.com https://www.google-analytics.com https://widgets.leadconnectorhq.com https://storage.googleapis.com;
+  font-src 'self' data: https://widgets.leadconnectorhq.com;
+  connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://vitals.vercel-insights.com https://widgets.leadconnectorhq.com https://services.leadconnectorhq.com https://backend.leadconnectorhq.com wss://backend.leadconnectorhq.com;
+  frame-src https://www.google.com https://maps.google.com https://widgets.leadconnectorhq.com;
   media-src 'self';
   upgrade-insecure-requests;
 `.replace(/\s{2,}/g, ' ').trim()
