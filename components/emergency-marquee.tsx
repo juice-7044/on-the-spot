@@ -7,10 +7,10 @@ export default function EmergencyMarquee() {
         <Phone size={18} className="flex-shrink-0" aria-hidden="true" />
         <span>Need Immediate Roadside Assistance?</span>
         <a
-          href="tel:4782447008"
+          href="tel:+14788183967"
           className="font-bold underline underline-offset-2 hover:no-underline"
         >
-          Call 478-244-7008
+          Call 478-818-3967
         </a>
       </span>
       <span className="px-8" aria-hidden="true">•</span>
@@ -18,10 +18,10 @@ export default function EmergencyMarquee() {
         <Phone size={18} className="flex-shrink-0" aria-hidden="true" />
         <span>Need Immediate Roadside Assistance?</span>
         <a
-          href="tel:4782447008"
+          href="tel:+14788183967"
           className="font-bold underline underline-offset-2 hover:no-underline"
         >
-          Call 478-244-7008
+          Call 478-818-3967
         </a>
       </span>
       <span className="px-8" aria-hidden="true">•</span>
@@ -29,10 +29,10 @@ export default function EmergencyMarquee() {
         <Phone size={18} className="flex-shrink-0" aria-hidden="true" />
         <span>Need Immediate Roadside Assistance?</span>
         <a
-          href="tel:4782447008"
+          href="tel:+14788183967"
           className="font-bold underline underline-offset-2 hover:no-underline"
         >
-          Call 478-244-7008
+          Call 478-818-3967
         </a>
       </span>
       <span className="px-8" aria-hidden="true">•</span>

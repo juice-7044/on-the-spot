@@ -126,7 +126,7 @@ Sitting in the middle of Dooly County farm country, Unadilla feels every shift i
       },
       {
         question: "Do I need an appointment for service at your Unadilla shop?",
-        answer: "For most services, no appointment is needed — just stop by during shop hours (Mon-Fri 8am-5pm, Sat 8am-12pm). For major repairs or fleet maintenance scheduling, we recommend calling ahead at 478-244-7008 so we can allocate the right time and resources for your job."
+        answer: "For most services, no appointment is needed — just stop by during shop hours (Mon-Fri 8am-5pm, Sat 8am-12pm). For major repairs or fleet maintenance scheduling, we recommend calling ahead at 478-818-3967 so we can allocate the right time and resources for your job."
       },
       {
         question: "Can Unadilla residents get 24/7 emergency service too?",
@@ -134,7 +134,7 @@ Sitting in the middle of Dooly County farm country, Unadilla feels every shift i
       },
       {
         question: "Where can I find truck repair near Unadilla, GA?",
-        answer: "On The Spot Repair Service & Tires is the leading truck repair shop near Unadilla, GA, located at 990 2nd Street right off I-75 Exit 121. We are a full-service facility with heavy-duty lifts and diagnostic equipment for semis, plus 24/7 mobile dispatch across the region. Call 478-244-7008 anytime."
+        answer: "On The Spot Repair Service & Tires is the leading truck repair shop near Unadilla, GA, located at 990 2nd Street right off I-75 Exit 121. We are a full-service facility with heavy-duty lifts and diagnostic equipment for semis, plus 24/7 mobile dispatch across the region. Call 478-818-3967 anytime."
       },
       {
         question: "Do you offer mobile tire repair across South Georgia?",
@@ -249,7 +249,7 @@ July in Perry means two things: the Georgia National Fairgrounds are gearing up 
 Perry runs on delivery, and the trucks behind that delivery are the ones we keep moving. Houston County schools depend on food-service and supply trucks rolling in before the first bell, Houston Healthcare's Perry campus takes pharmaceutical and medical-supply runs around the clock, and the grocery and retail corridor along Sam Nunn Boulevard sees box trucks and reefers restocking day and night. When one of those vehicles goes down, it isn't just one driver's problem — it's a missed cafeteria delivery, a delayed medical shipment, or empty shelves. That's why so many Perry fleet managers and delivery contractors keep our number on file: a fast roadside fix means the whole town's schedule stays on track.`,
     spanishContent: `**Reparación de Camiones en Perry, GA — Servicio 24 Horas**
 
-¿Tiene una avería de camión en la I-75 cerca de Perry? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas del día, los 7 días de la semana en el condado de Houston. Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-244-7008.`,
+¿Tiene una avería de camión en la I-75 cerca de Perry? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas del día, los 7 días de la semana en el condado de Houston. Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-818-3967.`,
     commonCalls: [
       "Steer tire blowouts on I-75 Exit 135/136",
       "Semi truck breakdown I-75 Georgia — engine failures",
@@ -261,7 +261,7 @@ Perry runs on delivery, and the trucks behind that delivery are the ones we keep
     faqs: [
       {
         question: "Where can I find truck repair in Perry, GA?",
-        answer: "On The Spot Repair Service & Tires provides truck repair Perry GA drivers trust. We are based in Unadilla, just 18 miles south on I-75, and offer 24/7 mobile service throughout Perry, Houston County, and the I-75 corridor from Exit 127 to Exit 146. Call 478-244-7008 anytime."
+        answer: "On The Spot Repair Service & Tires provides truck repair Perry GA drivers trust. We are based in Unadilla, just 18 miles south on I-75, and offer 24/7 mobile service throughout Perry, Houston County, and the I-75 corridor from Exit 127 to Exit 146. Call 478-818-3967 anytime."
       },
       {
         question: "Is there 24 hour truck repair near I-75 in Georgia?",
@@ -269,7 +269,7 @@ Perry runs on delivery, and the trucks behind that delivery are the ones we keep
       },
       {
         question: "What do I do if I have a semi truck breakdown on I-75 in Georgia?",
-        answer: "Call On The Spot Repair Service & Tires at 478-244-7008 immediately. We specialize in semi truck breakdown I-75 Georgia emergencies. Our mobile units carry commercial tires, brake components, and diagnostic equipment. We can reach most I-75 locations near Perry within 20-30 minutes and get you rolling without a tow."
+        answer: "Call On The Spot Repair Service & Tires at 478-818-3967 immediately. We specialize in semi truck breakdown I-75 Georgia emergencies. Our mobile units carry commercial tires, brake components, and diagnostic equipment. We can reach most I-75 locations near Perry within 20-30 minutes and get you rolling without a tow."
       },
       {
         question: "Do you offer mobile truck repair in Houston County, GA?",
@@ -346,10 +346,10 @@ Houston County heat is hard on steer tires, batteries, and cooling systems, espe
 
 **Distance & Directions from Warner Robins**
 
-Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the drive is approximately **30 miles / 35–40 minutes via I-75 and GA-247 / Russell Parkway**. For a roadside emergency, do not wait to reach the shop — call 478-244-7008 and we will come to you.`,
+Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the drive is approximately **30 miles / 35–40 minutes via I-75 and GA-247 / Russell Parkway**. For a roadside emergency, do not wait to reach the shop — call 478-818-3967 and we will come to you.`,
     spanishContent: `**Reparación de Camiones en Warner Robins, GA — Servicio 24 Horas**
 
-¿Tiene una avería de camión cerca de Warner Robins o Robins Air Force Base? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas, los 7 días de la semana en el condado de Houston. Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-244-7008.`,
+¿Tiene una avería de camión cerca de Warner Robins o Robins Air Force Base? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas, los 7 días de la semana en el condado de Houston. Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-818-3967.`,
     commonCalls: [
       "Semi truck breakdowns near Robins Air Force Base",
       "Steer and drive tire blowouts on I-75 and GA-247",
@@ -361,7 +361,7 @@ Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the d
     faqs: [
       {
         question: "Where can I find truck repair in Warner Robins, GA?",
-        answer: "On The Spot Repair Service & Tires provides 24/7 mobile truck repair throughout Warner Robins and Houston County. We dispatch from Unadilla, about 30 miles away via I-75 and GA-247, to Robins Air Force Base, Russell Parkway, industrial districts, loading docks, and roadside locations. Call 478-244-7008 anytime."
+        answer: "On The Spot Repair Service & Tires provides 24/7 mobile truck repair throughout Warner Robins and Houston County. We dispatch from Unadilla, about 30 miles away via I-75 and GA-247, to Robins Air Force Base, Russell Parkway, industrial districts, loading docks, and roadside locations. Call 478-818-3967 anytime."
       },
       {
         question: "Is there 24 hour truck repair near Robins Air Force Base?",
@@ -373,7 +373,7 @@ Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the d
       },
       {
         question: "How far is your shop from Warner Robins?",
-        answer: "Our shop is at 990 2nd Street in Unadilla, approximately 30 miles or 35–40 minutes from Warner Robins via I-75 and GA-247 / Russell Parkway. For breakdowns, call 478-244-7008 for mobile service at your location."
+        answer: "Our shop is at 990 2nd Street in Unadilla, approximately 30 miles or 35–40 minutes from Warner Robins via I-75 and GA-247 / Russell Parkway. For breakdowns, call 478-818-3967 for mobile service at your location."
       }
     ],
     services: [
@@ -471,7 +471,7 @@ Vienna's truck traffic runs on a seasonal rhythm, and we plan for both ends of i
       },
       {
         question: "Is there 24-hour truck repair in Dooly County, GA?",
-        answer: "Absolutely. On The Spot Repair Service & Tires is the closest 24-hour truck repair Dooly County GA option south of Macon. From the Vienna courthouse district to rural pecan and cotton roads, we provide round-the-clock mobile repair for tire blowouts, brake failures, engine trouble, and electrical issues. Call 478-244-7008 day or night."
+        answer: "Absolutely. On The Spot Repair Service & Tires is the closest 24-hour truck repair Dooly County GA option south of Macon. From the Vienna courthouse district to rural pecan and cotton roads, we provide round-the-clock mobile repair for tire blowouts, brake failures, engine trouble, and electrical issues. Call 478-818-3967 day or night."
       },
       {
         question: "Can you service farm and pecan haul trucks during harvest season?",
@@ -579,7 +579,7 @@ Hawkinsville has a character all its own. It's long been known as the harness-ra
       },
       {
         question: "What do I do if I have a truck breakdown in Hawkinsville, GA?",
-        answer: "Call On The Spot Repair Service & Tires at 478-244-7008. We specialize in truck breakdown Hawkinsville GA emergencies — tire blowouts, air brake failures, engine trouble, and electrical issues. Our mobile units carry commercial tires and diagnostic equipment, so we can get you back on US-129, US-341, or GA-26 without a tow."
+        answer: "Call On The Spot Repair Service & Tires at 478-818-3967. We specialize in truck breakdown Hawkinsville GA emergencies — tire blowouts, air brake failures, engine trouble, and electrical issues. Our mobile units carry commercial tires and diagnostic equipment, so we can get you back on US-129, US-341, or GA-26 without a tow."
       },
       {
         question: "Do you offer mobile tire repair in Pulaski County?",
@@ -699,7 +699,7 @@ The Exit 101 interchange has only gotten busier. Truck-stop expansion around the
       },
       {
         question: "What do I do if I have an I-75 truck breakdown in Cordele, GA?",
-        answer: "Call On The Spot Repair Service & Tires at 478-244-7008. We specialize in I-75 truck breakdown Cordele GA emergencies — tire blowouts, air brake failures, engine trouble, and reefer alarms. Our mobile units reach Exit 101 in about 25 minutes from Unadilla and carry the tires, parts, and diagnostic tools to get you back on the road."
+        answer: "Call On The Spot Repair Service & Tires at 478-818-3967. We specialize in I-75 truck breakdown Cordele GA emergencies — tire blowouts, air brake failures, engine trouble, and reefer alarms. Our mobile units reach Exit 101 in about 25 minutes from Unadilla and carry the tires, parts, and diagnostic tools to get you back on the road."
       },
       {
         question: "Is there 24 hour roadside service in Crisp County?",
@@ -804,7 +804,7 @@ Elko's biggest advantage is how close it sits to the interstate. Our Unadilla ho
 Elko is feeling the ripple effect of Houston County's southward expansion. Perry's push to grow warehousing and light-industrial space around the I-75 Exit 135 and Exit 136 interchanges — plus the year-round event schedule at the Georgia National Fairgrounds just up the road — is steadily pulling more freight down US-341 through Elko than the corridor saw even a few years ago. New distribution and agricultural-supply traffic means more loaded trucks on a two-lane stretch that still has no repair shop of its own. As that development creeps closer to Elko, we've positioned our mobile units to cover the gap, so a growing freight route never outpaces the emergency service behind it.`,
     spanishContent: `**Servicio de Reparación de Camiones — Elko, GA**
 
-¿Necesita reparación de llantas de camión cerca de Elko? On The Spot Repair Service & Tires ofrece servicio móvil las 24 horas del día, los 7 días de la semana para camiones comerciales, semirremolques y vehículos de pasajeros. Estamos a solo 10 minutos al sur de Elko en la US-341. Hablamos su idioma y entendemos la urgencia cuando su camión está varado. Llame ahora: 478-244-7008.`,
+¿Necesita reparación de llantas de camión cerca de Elko? On The Spot Repair Service & Tires ofrece servicio móvil las 24 horas del día, los 7 días de la semana para camiones comerciales, semirremolques y vehículos de pasajeros. Estamos a solo 10 minutos al sur de Elko en la US-341. Hablamos su idioma y entendemos la urgencia cuando su camión está varado. Llame ahora: 478-818-3967.`,
     commonCalls: [
       "Roadside semi tire repair on US-341",
       "24 hr road service for truck breakdowns",
@@ -820,7 +820,7 @@ Elko is feeling the ripple effect of Houston County's southward expansion. Perry
       },
       {
         question: "Do you offer 24 hr road service near me in Elko?",
-        answer: "Yes. We provide true 24/7 emergency road service to Elko and the US-341 corridor. Whether it is 2 AM on a Tuesday or noon on Sunday, call 478-244-7008 and we will dispatch a mobile unit to your location — typically within 30 minutes."
+        answer: "Yes. We provide true 24/7 emergency road service to Elko and the US-341 corridor. Whether it is 2 AM on a Tuesday or noon on Sunday, call 478-818-3967 and we will dispatch a mobile unit to your location — typically within 30 minutes."
       },
       {
         question: "Can you do roadside semi tire repair near me in Elko?",

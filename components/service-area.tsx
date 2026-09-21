@@ -77,10 +77,10 @@ export default function ServiceArea() {
             Do not see your town listed? We may still be able to help.
           </p>
           <a
-            href="tel:4782447008"
+            href="tel:+14788183967"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wider px-8 py-4 rounded-lg text-lg transition-all duration-200 hover:scale-105"
           >
-            Call to Check Coverage: 478-244-7008
+            Call to Check Coverage: 478-818-3967
           </a>
         </div>
       </div>

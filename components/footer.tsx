@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import Script from "next/script"
 import { Phone, Mail, MapPin } from "lucide-react"
+import { PHONE } from "@/lib/business"
 
 function FacebookIcon({ size = 14 }: { size?: number }) {
   return (
@@ -111,12 +112,12 @@ export default function Footer() {
             <ul className="flex flex-col gap-3" role="list">
               <li>
                 <a
-                  href="tel:4782447008"
+                  href={PHONE.tel}
                   className="flex items-center gap-2 font-sans text-sm text-muted-foreground hover:text-primary transition-colors"
-                  aria-label="Call 478-244-7008"
+                  aria-label={`Call ${PHONE.display}`}
                 >
                   <Phone size={14} className="text-primary flex-shrink-0" aria-hidden="true" />
-                  478-244-7008
+                  {PHONE.display}
                 </a>
               </li>
               <li>

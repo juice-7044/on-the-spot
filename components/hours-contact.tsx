@@ -75,9 +75,9 @@ export default function HoursContact() {
 
               <div className="flex flex-col gap-6">
                 <a
-                  href="tel:4782447008"
+                  href="tel:+14788183967"
                   className="flex items-center gap-4 group"
-                  aria-label="Call us at 478-244-7008"
+                  aria-label="Call us at 478-818-3967"
                 >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center group-hover:bg-primary/20 transition-colors flex-shrink-0" aria-hidden="true">
                     <Phone size={20} className="text-primary" />
@@ -85,7 +85,7 @@ export default function HoursContact() {
                   <div>
                     <p className="font-sans uppercase text-xs tracking-widest text-muted-foreground mb-0.5">Phone</p>
                     <p className="font-sans font-bold text-lg text-foreground group-hover:text-primary transition-colors">
-                      478-244-7008
+                      478-818-3967
                     </p>
                   </div>
                 </a>

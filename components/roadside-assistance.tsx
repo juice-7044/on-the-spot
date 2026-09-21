@@ -45,9 +45,9 @@ export default function RoadsideAssistance() {
 
             {/* CTA button */}
             <a
-              href="tel:4782447008"
+              href="tel:+14788183967"
               className="inline-flex items-center justify-center gap-3 bg-[#1a1a1a] hover:bg-[#333] text-white font-sans font-bold uppercase tracking-wider text-sm px-8 py-4 rounded transition-all duration-200"
-              aria-label="Call for emergency service at 478-244-7008"
+              aria-label="Call for emergency service at 478-818-3967"
             >
               Call For Emergency Service
             </a>

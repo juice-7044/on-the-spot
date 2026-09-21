@@ -31,11 +31,11 @@ export default function NotFound() {
                 Back to Home
               </Link>
               <a
-                href="tel:4782447008"
+                href="tel:+14788183967"
                 className="inline-flex items-center justify-center gap-2 bg-[#1a1a1a] hover:bg-[#333] text-white font-bold uppercase tracking-wider px-8 py-4 rounded-lg transition-all duration-200"
               >
                 <Phone size={20} />
-                Call: 478-244-7008
+                Call: 478-818-3967
               </a>
             </div>
 

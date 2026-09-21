@@ -75,10 +75,10 @@ export default function FAQ() {
             Still have questions? We&apos;re here to help.
           </p>
           <a
-            href="tel:4782447008"
+            href="tel:+14788183967"
             className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-sans font-bold uppercase tracking-wider text-sm px-6 py-3 rounded transition-all duration-200 hover:scale-105"
           >
-            Call 478-244-7008
+            Call 478-818-3967
           </a>
         </div>
       </div>
