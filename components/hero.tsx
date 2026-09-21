@@ -70,12 +70,12 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href="tel:4782447008"
+              href="tel:+14788183967"
               className="flex items-center justify-center gap-3 bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wider text-base px-8 py-4 rounded transition-all duration-200 hover:scale-105 hover:shadow-[0_0_24px_rgba(200,30,30,0.4)]"
-              aria-label="Call On The Spot Repair at 478-244-7008"
+              aria-label="Call On The Spot Repair at 478-818-3967"
             >
               <Phone size={20} aria-hidden="true" />
-              Call 478-244-7008
+              Call 478-818-3967
             </a>
             <a
               href="https://maps.google.com/?q=990+2nd+Street+Unadilla+GA+31091"
@@ -100,7 +100,7 @@ export default function Hero() {
               </defs>
               <text className="fill-primary text-[10px]" fontSize="9" letterSpacing="6" fontFamily="sans-serif" fontWeight="700">
                 <textPath href="#circle">
-                  UNADILLA GA • 478-244-7008 • OPEN 6 DAYS A WEEK •&nbsp;
+                  UNADILLA GA • 478-818-3967 • OPEN 6 DAYS A WEEK •&nbsp;
                 </textPath>
               </text>
             </svg>

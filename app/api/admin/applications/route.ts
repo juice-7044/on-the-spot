@@ -34,7 +34,7 @@ Sincerely,
 On The Spot Repair Team
 On The Spot Repair Service & Tires
 Unadilla, GA
-478-244-7008` }, { idempotencyKey: `application/rejected/${body.id}` })
+478-818-3967` }, { idempotencyKey: `application/rejected/${body.id}` })
     if (sent.error) console.error('[v0] rejection email failed', sent.error.message)
   }
   if (body.status === 'Accepted') {
@@ -46,7 +46,7 @@ Congratulations! We’re excited to move forward with you for the ${application.
 
 Our team will contact you with onboarding details, your start date, and any documents we need from you.
 
-Please call or text us at 478-244-7008 with any questions.
+Please call or text us at 478-818-3967 with any questions.
 
 Best,
 On The Spot Repair Team

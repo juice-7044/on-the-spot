@@ -67,7 +67,7 @@ export default async function TownPage({ params }: TownPageProps) {
     name: "On The Spot Repair Service & Tires",
     description: townData.schemaDescription,
     url: `https://www.onthespotrepairservicestires.com/${townData.slug}`,
-    telephone: "+1-478-244-7008",
+    telephone: "+14788183967",
     address: {
       "@type": "PostalAddress",
       streetAddress: "990 2nd Street",
@@ -258,11 +258,11 @@ export default async function TownPage({ params }: TownPageProps) {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:4782447008"
+                href="tel:+14788183967"
                 className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wider px-8 py-4 rounded-lg text-lg transition-all duration-200 hover:scale-105 animate-flash-emergency"
               >
                 <Phone size={20} />
-                Call Now: 478-244-7008
+Call Now: 478-818-3967
               </a>
               <a
                 href={`https://www.google.com/maps/dir/${townData.name},+GA/990+2nd+Street,+Unadilla,+GA+31091`}
@@ -442,7 +442,7 @@ export default async function TownPage({ params }: TownPageProps) {
                     and your trucks stay DOT-compliant and on the road.
                   </p>
                   <a
-                    href="tel:4782447008"
+                    href="tel:+14788183967"
                     className="inline-flex items-center gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-bold uppercase tracking-wider px-7 py-3.5 rounded-lg transition-all duration-200 hover:scale-105"
                   >
                     <Phone size={18} />
@@ -618,7 +618,7 @@ export default async function TownPage({ params }: TownPageProps) {
         {/* Mobile CTA Sticky */}
         <div className="fixed bottom-0 left-0 right-0 bg-primary p-4 md:hidden z-50 shadow-lg">
           <a
-            href="tel:4782447008"
+            href="tel:+14788183967"
             className="flex items-center justify-center gap-2 text-primary-foreground font-bold text-lg"
           >
             <Phone size={20} />

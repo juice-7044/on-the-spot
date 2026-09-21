@@ -57,7 +57,7 @@ Hourly wage: $${hourlyWage.toFixed(2)} per hour
 Please review and electronically sign your agreement here:
 ${url}
 
-This link expires in 7 days. If you have any questions, call or text us at 478-244-7008.
+This link expires in 7 days. If you have any questions, call or text us at 478-818-3967.
 
 Best,
 On The Spot Repair Team

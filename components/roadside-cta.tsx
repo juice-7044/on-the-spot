@@ -41,12 +41,12 @@ export default function RoadsideCta() {
         </p>
 
         <a
-          href="tel:4782447008"
+          href="tel:+14788183967"
           className="inline-flex items-center justify-center gap-3 bg-primary hover:bg-primary/90 text-primary-foreground font-sans font-black uppercase tracking-wider text-xl px-10 py-5 rounded transition-all duration-200 hover:scale-105 hover:shadow-[0_0_40px_rgba(200,30,30,0.5)]"
-          aria-label="Call On The Spot Repair emergency line at 478-244-7008"
+          aria-label="Call On The Spot Repair emergency line at 478-818-3967"
         >
           <Phone size={24} aria-hidden="true" />
-          Call Now: 478-244-7008
+          Call Now: 478-818-3967
         </a>
 
         <p className="mt-4 text-muted-foreground text-sm font-sans">

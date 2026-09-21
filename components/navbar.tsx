@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Phone, Menu, X, ChevronDown } from "lucide-react"
+import { PHONE } from "@/lib/business"
 
 type NavLink = {
   label: string
@@ -152,12 +153,12 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="tel:4782447008"
+          href={PHONE.tel}
           className="hidden md:flex items-center gap-1.5 bg-primary hover:bg-primary/90 text-primary-foreground font-sans font-semibold tracking-tight text-xs px-4 py-2 rounded transition-all duration-200 hover:scale-105 ml-6 whitespace-nowrap"
-          aria-label="Call us at 478-244-7008"
+          aria-label={`Call us at ${PHONE.display}`}
         >
           <Phone size={14} aria-hidden="true" />
-          478-244-7008
+          {PHONE.display}
         </a>
 
         {/* Mobile menu toggle */}
@@ -202,11 +203,11 @@ export default function Navbar() {
             </div>
           ))}
           <a
-            href="tel:4782447008"
+            href={PHONE.tel}
             className="flex items-center gap-2 bg-primary text-primary-foreground font-sans font-bold uppercase text-sm px-5 py-3 rounded justify-center mt-2"
           >
             <Phone size={16} aria-hidden="true" />
-            478-244-7008
+            {PHONE.display}
           </a>
         </div>
       )}
