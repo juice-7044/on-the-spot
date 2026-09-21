@@ -169,8 +169,7 @@ export default function Footer() {
       <Script
         src="https://widgets.leadconnectorhq.com/loader.js"
         data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
-        data-widget-id="6aa8923c8eb25ab4caa486fb"
-        data-source="WEB_USER"
+        data-widget-id="6ab181c42251fa7952320952"
         strategy="afterInteractive"
       />
     </footer>
