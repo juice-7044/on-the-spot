@@ -57,7 +57,7 @@ export default function Hero() {
             <Phone size={18} className="ml-1" aria-hidden="true" />
           </div>
           <p className="font-sans text-sm font-semibold text-foreground mb-8">
-            ($250 after-hours call-out fee applies)
+            ($250 call-out fee applies)
           </p>
 
           <h1 className="font-sans font-black uppercase leading-none text-5xl md:text-7xl lg:text-8xl text-foreground text-balance mb-6">

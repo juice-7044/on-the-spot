@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
             <p className="font-sans text-muted-foreground text-sm leading-relaxed">
               Full-service mechanic and tire shop serving Unadilla, GA and surrounding areas. Available 24/7 for
-              emergency mobile roadside assistance ($250 after-hours call-out fee applies). Shop hours: Mon-Fri 8:00 AM-5:00 PM,
+              emergency mobile roadside assistance ($250 call-out fee applies). Shop hours: Mon-Fri 8:00 AM-5:00 PM,
               Sat 8:00 AM-12:00 PM.
             </p>
           </div>

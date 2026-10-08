@@ -18,8 +18,8 @@ export default function EmergencyService() {
 
         <div className="flex flex-col gap-3 font-sans text-base leading-relaxed text-muted-foreground md:text-lg">
           <p>
-            <strong className="text-foreground">Shop hours:</strong> Mon-Fri 8:00 AM-5:00 PM, Sat 8:00 AM-12:00 PM —
-            standard pricing.
+            <strong className="text-foreground">Shop hours:</strong> Mon–Fri 8:00 AM – 5:00 PM, Sat 8:00 AM – 12:00
+            PM: no call-out fee for work at the shop during these hours.
           </p>
           <p>
             <strong className="text-foreground">After hours, weekends &amp; holidays:</strong> Emergency service is
@@ -36,20 +36,20 @@ export default function EmergencyService() {
 
         <div className="rounded-lg border-2 border-primary bg-primary p-5 text-primary-foreground shadow-lg md:p-7">
           <p className="font-sans text-lg leading-snug md:text-2xl">
-            A <strong className="font-black uppercase">$250 after-hours call-out fee</strong> applies to ALL service
-            outside shop hours. This includes:
+            A <strong className="font-black uppercase">$250 call-out fee</strong> applies to:
           </p>
           <ul className="mt-4 flex list-disc flex-col gap-2 pl-6 font-sans text-base md:text-lg">
-            <li>Roadside and mobile service calls</li>
+            <li>Every roadside and mobile service call, any time, day or night</li>
             <li>
-              Drive-ins at the shop after closing, <strong className="font-black">even if staff are still on site</strong>
+              Any service at the shop outside shop hours, including drive-ins after closing,{" "}
+              <strong className="font-black">even if staff are still on site</strong>
             </li>
           </ul>
         </div>
 
         <p className="font-sans text-base leading-relaxed text-muted-foreground md:text-lg">
-          The call-out fee is in addition to parts and labor. We&apos;ll always give you the full price before any work
-          begins, and nothing starts until you approve it.
+          The call-out fee is in addition to parts and labor. Roadside labor is $150 per hour. We&apos;ll always give
+          you the full price before any work begins, and nothing starts until you approve it.
         </p>
 
         <dl className="flex flex-col gap-2 font-sans text-base leading-relaxed text-muted-foreground md:text-lg">
