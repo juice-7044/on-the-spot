@@ -17,7 +17,7 @@ const jsonLd = {
   "alternateName": "On The Spot Repair Services & Tires, Inc.",
   "description": "Professional mechanic and tire shop serving cars, semi trucks, trailers, refrigerated reefers, RVs, and buses. Computer diagnostics and 24/7 mobile roadside assistance ($250 call-out fee applies).",
   "url": "https://www.onthespotrepairservicestires.com",
-  "telephone": "+14788183967",
+  "telephone": "+1-478-818-3967",
   "email": "onthespotrepair23@gmail.com",
   "priceRange": "$-$$$",
   "image": "https://www.onthespotrepairservicestires.com/logo.png",
@@ -91,7 +91,7 @@ const organizationJsonLd = {
   "url": SITE_URL,
   "logo": `${SITE_URL}/logo.png`,
   "image": `${SITE_URL}/og-image.jpg`,
-  "telephone": "+14788183967",
+  "telephone": "+1-478-818-3967",
   "email": "onthespotrepair23@gmail.com",
   "address": {
     "@type": "PostalAddress",

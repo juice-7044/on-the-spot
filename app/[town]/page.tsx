@@ -68,7 +68,7 @@ export default async function TownPage({ params }: TownPageProps) {
     name: "On The Spot Repair Service & Tires",
     description: townData.schemaDescription,
     url: `https://www.onthespotrepairservicestires.com/${townData.slug}`,
-    telephone: "+14788183967",
+    telephone: "+1-478-818-3967",
     address: {
       "@type": "PostalAddress",
       streetAddress: "990 2nd Street",
