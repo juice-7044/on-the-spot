@@ -36,8 +36,8 @@ export default function RoadsideCta() {
         </h2>
 
         <p className="font-sans text-muted-foreground text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-10">
-          Our 24-hour mobile roadside assistance is available every day of the week — including Sundays.
-          Breakdowns don&apos;t wait for business hours, and neither do we.
+          Our 24-hour mobile roadside assistance is available every day of the week — including Sundays ($250
+          after-hours call-out fee applies). Breakdowns don&apos;t wait for business hours, and neither do we.
         </p>
 
         <a
@@ -50,7 +50,7 @@ export default function RoadsideCta() {
         </a>
 
         <p className="mt-4 text-muted-foreground text-sm font-sans">
-          Available 24 hours for mobile call-out services
+          Available 24 hours for mobile call-out services ($250 after-hours call-out fee applies)
         </p>
       </div>
     </section>
