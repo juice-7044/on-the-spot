@@ -38,7 +38,7 @@ const SERVICES = [
     icon: Wrench,
     title: "24/7 Mobile Roadside",
     description:
-      "Stuck on the road? Our mobile team comes to you — any time, day or night, for emergency roadside assistance.",
+      "Stuck on the road? Our mobile team comes to you — any time, day or night, for emergency roadside assistance ($250 after-hours call-out fee applies).",
   },
 ]
 

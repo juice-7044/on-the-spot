@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import EmergencyMarquee from "@/components/emergency-marquee"
+import EmergencyService from "@/components/emergency-service"
 import About from "@/components/about"
 import Services from "@/components/services"
 import Gallery from "@/components/gallery"
@@ -17,6 +18,7 @@ export default function Page() {
     <main>
       <Navbar />
       <Hero />
+      <EmergencyService />
       <About />
       <Services />
       <Gallery />

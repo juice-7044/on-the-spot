@@ -15,7 +15,7 @@ const jsonLd = {
   "@type": "AutoRepair",
   "name": "On The Spot Repair Service & Tires",
   "alternateName": "On The Spot Repair Services & Tires, Inc.",
-  "description": "Professional mechanic and tire shop serving cars, semi trucks, trailers, refrigerated reefers, RVs, and buses. Computer diagnostics and 24/7 mobile roadside assistance.",
+  "description": "Professional mechanic and tire shop serving cars, semi trucks, trailers, refrigerated reefers, RVs, and buses. Computer diagnostics and 24/7 mobile roadside assistance ($250 after-hours call-out fee applies).",
   "url": "https://www.onthespotrepairservicestires.com",
   "telephone": "+14788183967",
   "email": "onthespotrepair23@gmail.com",
@@ -37,17 +37,15 @@ const jsonLd = {
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
       "opens": "08:00",
-      "closes": "17:00",
-      "description": "Shop walk-in hours"
+      "closes": "17:00"
     },
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "opens": "00:00",
-      "closes": "23:59",
-      "description": "24/7 emergency roadside and tire service"
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "12:00"
     }
   ],
   "areaServed": {
@@ -119,7 +117,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: 'Tire Repair & Truck Repair in Unadilla, GA - On The Spot Repair Services & Tires',
   description:
-    'Truck repair near me & tire repair near me in Unadilla, GA. Full-service mechanic for semis & cars. 24/7 emergency service. Engine rebuilds to flat tires.',
+    '24/7 emergency tire service in Unadilla, GA ($250 after-hours call-out fee applies). Truck & tire repair for semis & cars. Shop: Mon-Fri 8-5, Sat 8-12.',
   keywords: [
     'mechanic Unadilla GA',
     'tire shop Unadilla',
@@ -137,7 +135,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'On The Spot Repair Services & Tires',
     description:
-      'Full-service mechanic and tire shop serving cars, semi trucks, trailers, RVs, and buses in Unadilla, GA. 24/7 mobile roadside assistance.',
+      'Full-service mechanic and tire shop serving cars, semi trucks, trailers, RVs, and buses in Unadilla, GA. 24/7 mobile roadside assistance ($250 after-hours call-out fee applies).',
     url: SITE_URL,
     siteName: 'On The Spot Repair Service & Tires',
     type: 'website',
@@ -155,7 +153,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'On The Spot Repair Services & Tires',
     description:
-      '24/7 mobile truck & tire repair in Unadilla, GA and across the I-75 corridor. Semis, trailers, reefers, RVs & cars.',
+      '24/7 emergency tire service in Unadilla, GA ($250 after-hours call-out fee applies). Semis, trailers, reefers, RVs & cars.',
     images: ['/og-image.jpg'],
   },
   icons: {

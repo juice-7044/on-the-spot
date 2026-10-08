@@ -12,6 +12,7 @@ import {
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import TownReviews from "@/components/town-reviews"
+import EmergencyService from "@/components/emergency-service"
 
 interface TownPageProps {
   params: Promise<{ town: string }>
@@ -125,17 +126,15 @@ export default async function TownPage({ params }: TownPageProps) {
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         opens: "08:00",
         closes: "17:00",
-        description: "Shop walk-in hours",
       },
       {
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        opens: "00:00",
-        closes: "23:59",
-        description: `24/7 emergency mobile service to ${townData.name}, GA`,
+        dayOfWeek: "Saturday",
+        opens: "08:00",
+        closes: "12:00",
       },
     ],
     priceRange: "$-$$$",
@@ -277,6 +276,8 @@ Call Now: 478-818-3967
           </div>
         </section>
 
+        <EmergencyService />
+
         {/* Local Content Section */}
         <section className="py-16 md:py-20 bg-[#f5f5f5]">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">
@@ -347,7 +348,7 @@ Call Now: 478-818-3967
                   Nearby Service Areas
                 </h3>
                 <p className="text-[#666] mb-4">
-                  We also provide 24/7 mobile truck and tire repair to these nearby communities:
+                  We also provide 24/7 mobile truck and tire repair to these nearby communities ($250 after-hours call-out fee applies):
                 </p>
                 <div className="flex flex-wrap gap-3">
                   {townData.nearbyTowns.map((nearbyTown) => (
@@ -375,7 +376,7 @@ Call Now: 478-818-3967
                   Our South Georgia Service Area
                 </h2>
                 <p className="text-[#666] max-w-2xl mx-auto">
-                  From our central Unadilla home base at I-75 Exit 121, we dispatch 24/7 mobile truck and tire repair across all of these communities. Click any town for local service details.
+                  From our central Unadilla home base at I-75 Exit 121, we dispatch 24/7 mobile truck and tire repair across all of these communities ($250 after-hours call-out fee applies). Click any town for local service details.
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -459,7 +460,7 @@ Call Now: 478-818-3967
                     {
                       icon: Truck,
                       title: "Priority Dispatch",
-                      desc: "Fleet accounts jump the line for 24/7 emergency roadside response.",
+                      desc: "Fleet accounts jump the line for 24/7 emergency roadside response ($250 after-hours call-out fee applies).",
                     },
                     {
                       icon: ClipboardCheck,
@@ -622,7 +623,7 @@ Call Now: 478-818-3967
             className="flex items-center justify-center gap-2 text-primary-foreground font-bold text-lg"
           >
             <Phone size={20} />
-            Call Now: 478-244-7008
+            Call Now: 478-818-3967
           </a>
         </div>
       </main>

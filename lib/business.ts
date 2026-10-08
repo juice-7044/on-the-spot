@@ -10,3 +10,5 @@ export const PHONE = {
   /** E.164 value for structured data / schema / technical fields. */
   e164: '+14788183967',
 } as const
+
+export const AFTER_HOURS_FEE_NOTE = '($250 after-hours call-out fee applies)'
