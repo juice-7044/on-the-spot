@@ -30,7 +30,7 @@ export default function RoadsideAssistance() {
             </h2>
 
             <p className="font-sans text-[#555] leading-relaxed text-base mb-8 max-w-xl">
-              Breakdowns don&apos;t happen on a schedule. That&apos;s why we don&apos;t either. Our fully-equipped service trucks are ready to deploy 24/7 to your location ($250 after-hours call-out fee applies). We bring the shop to you.
+              Breakdowns don&apos;t happen on a schedule. That&apos;s why we don&apos;t either. Our fully-equipped service trucks are ready to deploy 24/7 to your location ($250 call-out fee applies). We bring the shop to you.
             </p>
 
             {/* Services list */}

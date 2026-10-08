@@ -50,10 +50,10 @@ export const TOWNS: Record<string, TownData> = {
     industries: ["Trucking hub", "Local businesses", "Agriculture", "Retail"],
     competitiveGap: "Our home base means fastest response times in the region",
     metaTitle: "Truck & Tire Repair Unadilla GA | Serving Perry, Vienna, Cordele, Hawkinsville & All South Georgia",
-    metaDescription: "On The Spot Truck & Tire Repair in Unadilla, GA. Full-service shop with 24/7 mobile roadside service across South Georgia — Perry, Vienna, Cordele, Hawkinsville, Elko, Byromville & Montezuma ($250 after-hours call-out fee applies). Call now!",
+    metaDescription: "On The Spot Truck & Tire Repair in Unadilla, GA. Full-service shop with 24/7 mobile roadside service across South Georgia — Perry, Vienna, Cordele, Hawkinsville, Elko, Byromville & Montezuma ($250 call-out fee applies). Call now!",
     h1Title: "24-Hour Truck & Tire Repair in Unadilla, GA",
     heroIntro: "Welcome to our home base. On The Spot Repair Service & Tires is located right here in Unadilla at the crossroads of I-75 and US-41 — the heart of Middle and South Georgia trucking country. As the Dooly County seat shop closest to the interstate, we deliver the fastest response in our entire service area.",
-    heroSecondary: "Whether you are a local resident with a flat tire, a trucker passing through on I-75, or a fleet operator based anywhere in South Georgia, our full-service shop handles everything from emergency roadside tire changes to complete engine rebuilds ($250 after-hours call-out fee applies). We dispatch 24/7 mobile units to Perry, Vienna, Cordele, Hawkinsville, Elko, Byromville, and Montezuma. Walk-in service available Monday through Saturday.",
+    heroSecondary: "Whether you are a local resident with a flat tire, a trucker passing through on I-75, or a fleet operator based anywhere in South Georgia, our full-service shop handles everything from emergency roadside tire changes to complete engine rebuilds ($250 call-out fee applies). We dispatch 24/7 mobile units to Perry, Vienna, Cordele, Hawkinsville, Elko, Byromville, and Montezuma. Walk-in service available Monday through Saturday.",
     localContent: `**Your Hometown Mechanic Shop**
 
 On The Spot Repair Service & Tires has called Unadilla home since day one. Located at **990 2nd Street**, we sit at the strategic intersection of **I-75 and US-41** — two of the busiest commercial corridors in Middle Georgia. This location was no accident. We are positioned to serve the thousands of trucks that pass through Unadilla daily, as well as the local community that depends on reliable vehicle service.
@@ -130,11 +130,11 @@ Sitting in the middle of Dooly County farm country, Unadilla feels every shift i
       },
       {
         question: "Can Unadilla residents get 24/7 emergency service too?",
-        answer: "Absolutely. While our shop has regular walk-in hours, our 24/7 emergency roadside service is available to everyone — including Unadilla locals ($250 after-hours call-out fee applies). If you have a flat tire at midnight or your truck will not start on a Sunday, call us and we will come to you."
+        answer: "Absolutely. While our shop has regular walk-in hours, our 24/7 emergency roadside service is available to everyone — including Unadilla locals ($250 call-out fee applies). If you have a flat tire at midnight or your truck will not start on a Sunday, call us and we will come to you."
       },
       {
         question: "Where can I find truck repair near Unadilla, GA?",
-        answer: "On The Spot Repair Service & Tires is the leading truck repair shop near Unadilla, GA, located at 990 2nd Street right off I-75 Exit 121. We are a full-service facility with heavy-duty lifts and diagnostic equipment for semis, plus 24/7 mobile dispatch across the region ($250 after-hours call-out fee applies). Call 478-818-3967 anytime."
+        answer: "On The Spot Repair Service & Tires is the leading truck repair shop near Unadilla, GA, located at 990 2nd Street right off I-75 Exit 121. We are a full-service facility with heavy-duty lifts and diagnostic equipment for semis, plus 24/7 mobile dispatch across the region ($250 call-out fee applies). Call 478-818-3967 anytime."
       },
       {
         question: "Do you offer mobile tire repair across South Georgia?",
@@ -142,23 +142,23 @@ Sitting in the middle of Dooly County farm country, Unadilla feels every shift i
       },
       {
         question: "Is there 24 hour roadside service in Dooly County?",
-        answer: "Absolutely. On The Spot Repair Service & Tires provides true 24 hour roadside service Dooly County wide — and well beyond ($250 after-hours call-out fee applies). As the Dooly County seat-area shop closest to I-75, we cover the interstate, US-41, US-129, and the rural county roads around the clock for tire blowouts, breakdowns, jump-starts, and emergency repairs."
+        answer: "Absolutely. On The Spot Repair Service & Tires provides true 24 hour roadside service Dooly County wide — and well beyond ($250 call-out fee applies). As the Dooly County seat-area shop closest to I-75, we cover the interstate, US-41, US-129, and the rural county roads around the clock for tire blowouts, breakdowns, jump-starts, and emergency repairs."
       },
       {
         question: "Where can I get tire repair near me in Unadilla?",
-        answer: "On The Spot Repair Service & Tires is your closest option for tire repair near me in Unadilla — located at 990 2nd Street, right off I-75 Exit 121. We handle flat repairs, new tire mounting and balancing, and commercial truck tires for every size, with walk-in service Monday through Saturday and 24/7 mobile tire repair when you cannot make it to the shop ($250 after-hours call-out fee applies)."
+        answer: "On The Spot Repair Service & Tires is your closest option for tire repair near me in Unadilla — located at 990 2nd Street, right off I-75 Exit 121. We handle flat repairs, new tire mounting and balancing, and commercial truck tires for every size, with walk-in service Monday through Saturday and 24/7 mobile tire repair when you cannot make it to the shop ($250 call-out fee applies)."
       }
     ],
     services: [
       { service: "Walk-in Tire Service", availability: "Yes — shop hours" },
-      { service: "24/7 Emergency Roadside", availability: "Yes — mobile dispatch ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Emergency Roadside", availability: "Yes — mobile dispatch ($250 call-out fee applies)" },
       { service: "Semi-Truck Engine Repair", availability: "Yes — full shop facility" },
       { service: "DOT Inspections", availability: "Yes — by appointment" },
       { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
       { service: "Passenger Vehicle Repair", availability: "Yes — walk-in or appointment" },
       { service: "Computer Diagnostics", availability: "Yes — commercial and passenger" }
     ],
-    schemaDescription: "Home base for On The Spot Repair Service & Tires in Unadilla, GA. Full-service mechanic shop at I-75 Exit 121 with 24/7 emergency mobile dispatch across South Georgia — serving Perry, Vienna, Cordele, Hawkinsville, Elko, Byromville, and Montezuma ($250 after-hours call-out fee applies).",
+    schemaDescription: "Home base for On The Spot Repair Service & Tires in Unadilla, GA. Full-service mechanic shop at I-75 Exit 121 with 24/7 emergency mobile dispatch across South Georgia — serving Perry, Vienna, Cordele, Hawkinsville, Elko, Byromville, and Montezuma ($250 call-out fee applies).",
     coordinates: { lat: 32.26042556762695, lng: -83.7447509765625 },
     nearbyTowns: [
       { name: "Perry", slug: "perry" },
@@ -188,13 +188,13 @@ Sitting in the middle of Dooly County farm country, Unadilla feels every shift i
     industries: ["Medical delivery", "Distribution", "Manufacturing", "Retail", "Events & Fairgrounds"],
     competitiveGap: "Most Perry shops close at 5 or 6 PM — we are the 24 hour truck repair near I-75 that answers at 2 AM",
     metaTitle: "Truck Repair Perry GA | 24 Hour Truck Repair Near I-75 | On The Spot",
-    metaDescription: "Truck repair Perry GA right off I-75. 24 hour truck repair near I-75 for semi truck breakdown I-75 Georgia ($250 after-hours call-out fee applies). Mobile truck repair Houston County GA. Exit 135/136. Call now!",
+    metaDescription: "Truck repair Perry GA right off I-75. 24 hour truck repair near I-75 for semi truck breakdown I-75 Georgia ($250 call-out fee applies). Mobile truck repair Houston County GA. Exit 135/136. Call now!",
     h1Title: "24-Hour Truck & Tire Repair Near Perry, GA — Right Off I-75",
-    heroIntro: "Semi truck breakdown on I-75 in Georgia? On The Spot Repair Service & Tires provides 24 hour truck repair near I-75 — serving Perry, Houston County, and the entire I-75 corridor from Exit 127 to Exit 146. We are the closest mobile mechanic to the Georgia National Fairgrounds ($250 after-hours call-out fee applies).",
+    heroIntro: "Semi truck breakdown on I-75 in Georgia? On The Spot Repair Service & Tires provides 24 hour truck repair near I-75 — serving Perry, Houston County, and the entire I-75 corridor from Exit 127 to Exit 146. We are the closest mobile mechanic to the Georgia National Fairgrounds ($250 call-out fee applies).",
     heroSecondary: "From steer tire blowouts at Exit 136 to reefer unit failures at the Industrial Park, we handle truck repair Perry GA drivers trust. Semis, box trucks, fleet vehicles — no tow needed. Mobile truck repair Houston County GA dispatched within 20 minutes.",
     localContent: `**I-75 Truck Breakdown? We Cover the Perry Exit**
 
-Perry sits at **I-75 Exits 135 and 136** — one of the busiest commercial corridors between Atlanta and Florida. Every day, thousands of semi-trucks haul freight through Houston County on this critical north-south artery. When your truck breaks down on I-75 near Perry, you need **24 hour truck repair near I-75** that responds fast — not a dispatcher telling you to wait until morning ($250 after-hours call-out fee applies).
+Perry sits at **I-75 Exits 135 and 136** — one of the busiest commercial corridors between Atlanta and Florida. Every day, thousands of semi-trucks haul freight through Houston County on this critical north-south artery. When your truck breaks down on I-75 near Perry, you need **24 hour truck repair near I-75** that responds fast — not a dispatcher telling you to wait until morning ($250 call-out fee applies).
 
 On The Spot Repair Service & Tires is the **truck repair Perry GA** drivers call first. We are based just 18 miles south in Unadilla, positioned for rapid response to I-75 breakdowns anywhere between Perry and Cordele.
 
@@ -249,7 +249,7 @@ July in Perry means two things: the Georgia National Fairgrounds are gearing up 
 Perry runs on delivery, and the trucks behind that delivery are the ones we keep moving. Houston County schools depend on food-service and supply trucks rolling in before the first bell, Houston Healthcare's Perry campus takes pharmaceutical and medical-supply runs around the clock, and the grocery and retail corridor along Sam Nunn Boulevard sees box trucks and reefers restocking day and night. When one of those vehicles goes down, it isn't just one driver's problem — it's a missed cafeteria delivery, a delayed medical shipment, or empty shelves. That's why so many Perry fleet managers and delivery contractors keep our number on file: a fast roadside fix means the whole town's schedule stays on track.`,
     spanishContent: `**Reparación de Camiones en Perry, GA — Servicio 24 Horas**
 
-¿Tiene una avería de camión en la I-75 cerca de Perry? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas del día, los 7 días de la semana en el condado de Houston (se aplica un cargo de $250 por servicio fuera de horario). Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-818-3967.`,
+¿Tiene una avería de camión en la I-75 cerca de Perry? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas del día, los 7 días de la semana en el condado de Houston (se aplica un cargo de $250 por cada llamada de servicio). Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-818-3967.`,
     commonCalls: [
       "Steer tire blowouts on I-75 Exit 135/136",
       "Semi truck breakdown I-75 Georgia — engine failures",
@@ -261,31 +261,31 @@ Perry runs on delivery, and the trucks behind that delivery are the ones we keep
     faqs: [
       {
         question: "Where can I find truck repair in Perry, GA?",
-        answer: "On The Spot Repair Service & Tires provides truck repair Perry GA drivers trust. We are based in Unadilla, just 18 miles south on I-75, and offer 24/7 mobile service throughout Perry, Houston County, and the I-75 corridor from Exit 127 to Exit 146. Call 478-818-3967 anytime ($250 after-hours call-out fee applies)."
+        answer: "On The Spot Repair Service & Tires provides truck repair Perry GA drivers trust. We are based in Unadilla, just 18 miles south on I-75, and offer 24/7 mobile service throughout Perry, Houston County, and the I-75 corridor from Exit 127 to Exit 146. Call 478-818-3967 anytime ($250 call-out fee applies)."
       },
       {
         question: "Is there 24 hour truck repair near I-75 in Georgia?",
-        answer: "Yes. On The Spot Repair Service & Tires is your 24 hour truck repair near I-75 option in Middle Georgia ($250 after-hours call-out fee applies). We cover I-75 from Byron (Exit 146) through Perry (Exits 135/136) to Cordele (Exit 101). Whether it is 2 AM or noon on Sunday, we dispatch mobile units to your breakdown location."
+        answer: "Yes. On The Spot Repair Service & Tires is your 24 hour truck repair near I-75 option in Middle Georgia ($250 call-out fee applies). We cover I-75 from Byron (Exit 146) through Perry (Exits 135/136) to Cordele (Exit 101). Whether it is 2 AM or noon on Sunday, we dispatch mobile units to your breakdown location."
       },
       {
         question: "What do I do if I have a semi truck breakdown on I-75 in Georgia?",
-        answer: "Call On The Spot Repair Service & Tires at 478-818-3967 immediately. We specialize in semi truck breakdown I-75 Georgia emergencies ($250 after-hours call-out fee applies). Our mobile units carry commercial tires, brake components, and diagnostic equipment. We can reach most I-75 locations near Perry within 20-30 minutes and get you rolling without a tow."
+        answer: "Call On The Spot Repair Service & Tires at 478-818-3967 immediately. We specialize in semi truck breakdown I-75 Georgia emergencies ($250 call-out fee applies). Our mobile units carry commercial tires, brake components, and diagnostic equipment. We can reach most I-75 locations near Perry within 20-30 minutes and get you rolling without a tow."
       },
       {
         question: "Do you offer mobile truck repair in Houston County, GA?",
-        answer: "Yes. We provide mobile truck repair Houston County GA businesses depend on. From the Georgia National Fairgrounds to Perry Industrial Park to I-75 rest areas, we bring full-service repair to your location. Fleet accounts, one-time emergencies, and everything in between ($250 after-hours call-out fee applies)."
+        answer: "Yes. We provide mobile truck repair Houston County GA businesses depend on. From the Georgia National Fairgrounds to Perry Industrial Park to I-75 rest areas, we bring full-service repair to your location. Fleet accounts, one-time emergencies, and everything in between ($250 call-out fee applies)."
       }
     ],
     services: [
-      { service: "24/7 I-75 Roadside Tire Repair", availability: "Yes — Exit 127 to 146 ($250 after-hours call-out fee applies)" },
+      { service: "24/7 I-75 Roadside Tire Repair", availability: "Yes — Exit 127 to 146 ($250 call-out fee applies)" },
       { service: "Semi-Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
-      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 after-hours call-out fee applies)" },
+      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 call-out fee applies)" },
       { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
       { service: "Reefer Unit Diagnostics", availability: "Yes — mobile" },
       { service: "Fairground Event Support", availability: "Yes — on-call during events" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
     ],
-    schemaDescription: "Truck repair Perry GA and 24 hour truck repair near I-75. Mobile service for semi truck breakdown I-75 Georgia at Exits 135/136. Mobile truck repair Houston County GA ($250 after-hours call-out fee applies).",
+    schemaDescription: "Truck repair Perry GA and 24 hour truck repair near I-75. Mobile service for semi truck breakdown I-75 Georgia at Exits 135/136. Mobile truck repair Houston County GA ($250 call-out fee applies).",
     coordinates: { lat: 32.4582, lng: -83.7316 },
     nearbyTowns: [
       { name: "Unadilla", slug: "unadilla" },
@@ -310,10 +310,10 @@ Perry runs on delivery, and the trucks behind that delivery are the ones we keep
     industries: ["Defense logistics", "Commercial trucking", "Manufacturing", "Distribution", "Fleet operations"],
     competitiveGap: "Warner Robins has plenty of traffic but limited after-hours heavy-duty repair — we answer 24/7 from Unadilla",
     metaTitle: "Truck Repair Warner Robins GA | 24 Hour Truck Repair | On The Spot",
-    metaDescription: "Truck repair Warner Robins GA with 24 hour truck repair, mobile truck repair Houston County GA, semi truck breakdown response near Robins Air Force Base ($250 after-hours call-out fee applies). Call On The Spot now!",
+    metaDescription: "Truck repair Warner Robins GA with 24 hour truck repair, mobile truck repair Houston County GA, semi truck breakdown response near Robins Air Force Base ($250 call-out fee applies). Call On The Spot now!",
     h1Title: "24-Hour Truck & Tire Repair Near Warner Robins, GA",
     heroIntro: "Need truck repair Warner Robins GA drivers can count on? On The Spot Repair Service & Tires provides 24 hour truck repair and mobile roadside service throughout Houston County, just 30 miles south in Unadilla via I-75 and GA-247.",
-    heroSecondary: "We respond to semi truck breakdowns, fleet emergencies, and tire blowouts around Robins Air Force Base, the Museum of Aviation, the industrial district, and the busy Russell Parkway corridor ($250 after-hours call-out fee applies). No tow needed — we come to you day or night.",
+    heroSecondary: "We respond to semi truck breakdowns, fleet emergencies, and tire blowouts around Robins Air Force Base, the Museum of Aviation, the industrial district, and the busy Russell Parkway corridor ($250 call-out fee applies). No tow needed — we come to you day or night.",
     localContent: `**Supporting the Trucking Traffic Around Robins Air Force Base**
 
 Warner Robins is one of Middle Georgia's busiest logistics centers. **Robins Air Force Base** is one of the largest Air Force logistics bases in the country, and the commercial trucks, contractors, supply vehicles, and fleet traffic supporting it keep the GA-247 corridor moving every hour of the day.
@@ -336,9 +336,9 @@ The **Museum of Aviation** and the surrounding base community draw steady visito
 
 **The Trucks That Keep Warner Robins Running**
 
-Warner Robins runs on logistics: parts deliveries to the base, contractor trucks, warehouse reefers, school and municipal vehicles, construction rigs, and box trucks restocking businesses along Russell Parkway. A breakdown can delay a critical shipment or leave a fleet vehicle blocking a loading dock. Our 24/7 response keeps those trucks moving and supports the drivers, dispatchers, and fleet managers who keep Houston County on schedule ($250 after-hours call-out fee applies).
+Warner Robins runs on logistics: parts deliveries to the base, contractor trucks, warehouse reefers, school and municipal vehicles, construction rigs, and box trucks restocking businesses along Russell Parkway. A breakdown can delay a critical shipment or leave a fleet vehicle blocking a loading dock. Our 24/7 response keeps those trucks moving and supports the drivers, dispatchers, and fleet managers who keep Houston County on schedule ($250 call-out fee applies).
 
-We also regularly reach nearby **Centerville, Bonaire, and Kathleen**, along with Perry and the I-75 corridor, for mobile tire service and emergency repairs ($250 after-hours call-out fee applies).
+We also regularly reach nearby **Centerville, Bonaire, and Kathleen**, along with Perry and the I-75 corridor, for mobile tire service and emergency repairs ($250 call-out fee applies).
 
 **Summer Heat, Base Traffic & Fleet Downtime**
 
@@ -346,10 +346,10 @@ Houston County heat is hard on steer tires, batteries, and cooling systems, espe
 
 **Distance & Directions from Warner Robins**
 
-Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the drive is approximately **30 miles / 35–40 minutes via I-75 and GA-247 / Russell Parkway**. For a roadside emergency, do not wait to reach the shop — call 478-818-3967 and we will come to you ($250 after-hours call-out fee applies).`,
+Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the drive is approximately **30 miles / 35–40 minutes via I-75 and GA-247 / Russell Parkway**. For a roadside emergency, do not wait to reach the shop — call 478-818-3967 and we will come to you ($250 call-out fee applies).`,
     spanishContent: `**Reparación de Camiones en Warner Robins, GA — Servicio 24 Horas**
 
-¿Tiene una avería de camión cerca de Warner Robins o Robins Air Force Base? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas, los 7 días de la semana en el condado de Houston (se aplica un cargo de $250 por servicio fuera de horario). Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-818-3967.`,
+¿Tiene una avería de camión cerca de Warner Robins o Robins Air Force Base? On The Spot Repair Service & Tires ofrece reparación móvil de camiones las 24 horas, los 7 días de la semana en el condado de Houston (se aplica un cargo de $250 por cada llamada de servicio). Reparamos llantas, frenos, motores y sistemas eléctricos directamente en su ubicación. No necesita remolque. Hablamos español. Llame ahora: 478-818-3967.`,
     commonCalls: [
       "Semi truck breakdowns near Robins Air Force Base",
       "Steer and drive tire blowouts on I-75 and GA-247",
@@ -361,11 +361,11 @@ Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the d
     faqs: [
       {
         question: "Where can I find truck repair in Warner Robins, GA?",
-        answer: "On The Spot Repair Service & Tires provides 24/7 mobile truck repair throughout Warner Robins and Houston County ($250 after-hours call-out fee applies). We dispatch from Unadilla, about 30 miles away via I-75 and GA-247, to Robins Air Force Base, Russell Parkway, industrial districts, loading docks, and roadside locations. Call 478-818-3967 anytime."
+        answer: "On The Spot Repair Service & Tires provides 24/7 mobile truck repair throughout Warner Robins and Houston County ($250 call-out fee applies). We dispatch from Unadilla, about 30 miles away via I-75 and GA-247, to Robins Air Force Base, Russell Parkway, industrial districts, loading docks, and roadside locations. Call 478-818-3967 anytime."
       },
       {
         question: "Is there 24 hour truck repair near Robins Air Force Base?",
-        answer: "Yes. We provide 24 hour truck repair near Robins Air Force Base for semi truck breakdowns, tire blowouts, brake problems, jump-starts, and emergency fleet repairs ($250 after-hours call-out fee applies). Our mobile units respond day or night throughout Warner Robins and Houston County."
+        answer: "Yes. We provide 24 hour truck repair near Robins Air Force Base for semi truck breakdowns, tire blowouts, brake problems, jump-starts, and emergency fleet repairs ($250 call-out fee applies). Our mobile units respond day or night throughout Warner Robins and Houston County."
       },
       {
         question: "Do you offer mobile truck repair in Houston County, GA?",
@@ -377,15 +377,15 @@ Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the d
       }
     ],
     services: [
-      { service: "24/7 Mobile Truck & Tire Repair", availability: "Yes — Warner Robins and Houston County ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Mobile Truck & Tire Repair", availability: "Yes — Warner Robins and Houston County ($250 call-out fee applies)" },
       { service: "I-75 & GA-247 Roadside Service", availability: "Yes — mobile dispatch" },
       { service: "Semi-Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
-      { service: "Brake Service & DOT Inspections", availability: "Yes — emergency or scheduled ($250 after-hours call-out fee applies)" },
+      { service: "Brake Service & DOT Inspections", availability: "Yes — emergency or scheduled ($250 call-out fee applies)" },
       { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
       { service: "Contractor & Base-Support Fleet Service", availability: "Yes — priority dispatch available" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
     ],
-    schemaDescription: "Truck repair Warner Robins GA and 24 hour mobile truck repair Houston County GA ($250 after-hours call-out fee applies). Emergency semi truck breakdown service near Robins Air Force Base, GA-247, Russell Parkway, and I-75.",
+    schemaDescription: "Truck repair Warner Robins GA and 24 hour mobile truck repair Houston County GA ($250 call-out fee applies). Emergency semi truck breakdown service near Robins Air Force Base, GA-247, Russell Parkway, and I-75.",
     coordinates: { lat: 32.613, lng: -83.624 }
   },
 
@@ -406,9 +406,9 @@ Our shop is at **990 2nd Street, Unadilla, GA 31091**. From Warner Robins, the d
     competitiveGap: "Small town with no after-hours repair options — nearest 24-hour service south of Macon is us",
     seasonalNote: "Harvest season agricultural urgency",
     metaTitle: "Tire Repair Vienna GA | 24-Hour Truck Repair Dooly County | On The Spot",
-    metaDescription: "Tire repair Vienna GA & 24-hour truck repair Dooly County ($250 after-hours call-out fee applies). Fleet tire service Vienna GA for semis, farm trucks & box trucks on US-41. Mobile roadside service. Call now!",
+    metaDescription: "Tire repair Vienna GA & 24-hour truck repair Dooly County ($250 call-out fee applies). Fleet tire service Vienna GA for semis, farm trucks & box trucks on US-41. Mobile roadside service. Call now!",
     h1Title: "24-Hour Truck & Tire Repair Near Vienna, GA",
-    heroIntro: "Need tire repair near me in Vienna GA? On The Spot Repair Service & Tires provides 24/7 truck repair Dooly County GA drivers trust — just 15 minutes east on US-41 from Vienna ($250 after-hours call-out fee applies). We are the closest mobile mechanic serving Dooly County, pecan country, and the US-41 corridor.",
+    heroIntro: "Need tire repair near me in Vienna GA? On The Spot Repair Service & Tires provides 24/7 truck repair Dooly County GA drivers trust — just 15 minutes east on US-41 from Vienna ($250 call-out fee applies). We are the closest mobile mechanic serving Dooly County, pecan country, and the US-41 corridor.",
     heroSecondary: "From tire blowouts at the Vienna Farmers Market to fleet tire service Vienna GA businesses depend on, we handle semis, box trucks, farm haulers, and fleet vehicles. Mobile service — no tow needed. We come to you, day or night.",
     localContent: `**Serving Vienna's Historic Corridors**
 
@@ -424,9 +424,9 @@ We know Vienna. Our mobile repair units regularly service trucks at:
 
 **Why Vienna Drivers Call Us First**
 
-Vienna is a **small town with limited commercial repair options** — and none open after dark. The nearest 24-hour truck service south of Macon is us ($250 after-hours call-out fee applies). If your steer tire shreds on US-41 at 11 PM, or your reefer unit alarms at the county warehouse on a Saturday, we are the only call that gets a human answer.
+Vienna is a **small town with limited commercial repair options** — and none open after dark. The nearest 24-hour truck service south of Macon is us ($250 call-out fee applies). If your steer tire shreds on US-41 at 11 PM, or your reefer unit alarms at the county warehouse on a Saturday, we are the only call that gets a human answer.
 
-Our shop in Unadilla is just **12 miles west on US-41** — close enough for fast response, positioned to cover the gap between Macon's shops and Cordele's limited after-hours service ($250 after-hours call-out fee applies). We fill the critical need: **night, weekend, and emergency service** when Vienna's daytime economy shuts down.
+Our shop in Unadilla is just **12 miles west on US-41** — close enough for fast response, positioned to cover the gap between Macon's shops and Cordele's limited after-hours service ($250 call-out fee applies). We fill the critical need: **night, weekend, and emergency service** when Vienna's daytime economy shuts down.
 
 **Agricultural & Farm Truck Support**
 
@@ -463,7 +463,7 @@ Vienna's truck traffic runs on a seasonal rhythm, and we plan for both ends of i
     faqs: [
       {
         question: "Where can I get tire repair near me in Vienna, GA?",
-        answer: "On The Spot Repair Service & Tires provides tire repair Vienna GA drivers count on. We are based in Unadilla, just 15 minutes east on US-41, and dispatch mobile units throughout Vienna, Dooly County, and the US-41 corridor 24/7. We handle steer tires, drive tires, and trailer tires for semis, farm trucks, and passenger vehicles — on-site, no tow needed ($250 after-hours call-out fee applies)."
+        answer: "On The Spot Repair Service & Tires provides tire repair Vienna GA drivers count on. We are based in Unadilla, just 15 minutes east on US-41, and dispatch mobile units throughout Vienna, Dooly County, and the US-41 corridor 24/7. We handle steer tires, drive tires, and trailer tires for semis, farm trucks, and passenger vehicles — on-site, no tow needed ($250 call-out fee applies)."
       },
       {
         question: "Do you offer fleet tire maintenance in Georgia?",
@@ -471,7 +471,7 @@ Vienna's truck traffic runs on a seasonal rhythm, and we plan for both ends of i
       },
       {
         question: "Is there 24-hour truck repair in Dooly County, GA?",
-        answer: "Absolutely. On The Spot Repair Service & Tires is the closest 24-hour truck repair Dooly County GA option south of Macon ($250 after-hours call-out fee applies). From the Vienna courthouse district to rural pecan and cotton roads, we provide round-the-clock mobile repair for tire blowouts, brake failures, engine trouble, and electrical issues. Call 478-818-3967 day or night."
+        answer: "Absolutely. On The Spot Repair Service & Tires is the closest 24-hour truck repair Dooly County GA option south of Macon ($250 call-out fee applies). From the Vienna courthouse district to rural pecan and cotton roads, we provide round-the-clock mobile repair for tire blowouts, brake failures, engine trouble, and electrical issues. Call 478-818-3967 day or night."
       },
       {
         question: "Can you service farm and pecan haul trucks during harvest season?",
@@ -479,15 +479,15 @@ Vienna's truck traffic runs on a seasonal rhythm, and we plan for both ends of i
       }
     ],
     services: [
-      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 call-out fee applies)" },
       { service: "Semi-Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
-      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 after-hours call-out fee applies)" },
+      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 call-out fee applies)" },
       { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
-      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 after-hours call-out fee applies)" },
+      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 call-out fee applies)" },
       { service: "Agricultural Equipment Repair", availability: "Yes — mobile to farm locations" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
     ],
-    schemaDescription: "Tire repair Vienna GA and 24-hour truck repair Dooly County ($250 after-hours call-out fee applies). Fleet tire service Vienna GA on the US-41 corridor. Mobile service to Dooly County Courthouse, downtown Vienna, pecan country, and rural farm locations.",
+    schemaDescription: "Tire repair Vienna GA and 24-hour truck repair Dooly County ($250 call-out fee applies). Fleet tire service Vienna GA on the US-41 corridor. Mobile service to Dooly County Courthouse, downtown Vienna, pecan country, and rural farm locations.",
     coordinates: { lat: 32.0915, lng: -83.7957 },
     nearbyTowns: [
       { name: "Cordele", slug: "cordele" },
@@ -513,13 +513,13 @@ Vienna's truck traffic runs on a seasonal rhythm, and we plan for both ends of i
     competitiveGap: "All Hawkinsville shops close by 6 PM despite being a commercial hub",
     seasonalNote: "Cotton gin season",
     metaTitle: "Truck Repair Hawkinsville GA | 24-Hour Heavy-Duty Semi & Diesel Service",
-    metaDescription: "Truck repair Hawkinsville GA — 24-hour heavy-duty semi, diesel, and mobile tire repair across Pulaski County ($250 after-hours call-out fee applies). Roadside truck breakdown service on US-129 & US-341. Call now!",
+    metaDescription: "Truck repair Hawkinsville GA — 24-hour heavy-duty semi, diesel, and mobile tire repair across Pulaski County ($250 call-out fee applies). Roadside truck breakdown service on US-129 & US-341. Call now!",
     h1Title: "Truck Repair in Hawkinsville, GA — 24-Hour Heavy-Duty & Tire Service",
     heroIntro: "Truck breakdown in Hawkinsville GA? We provide 24-hour truck repair Hawkinsville GA drivers trust — heavy-duty semi, diesel, and trailer service just 18 minutes southwest on US-129. We are the closest mobile truck mechanic serving Pulaski County, the Ocmulgee River corridor, and US-341.",
     heroSecondary: "From air brake failures at the Pulaski County Industrial Park to roadside truck repair on US-129, we handle semis, box trucks, and commercial fleets. Mobile tire repair Pulaski County — no tow needed. We come to you, day or night. Passenger vehicles are also welcome by tow to our Unadilla shop.",
     localContent: `**Serving Pulaski County's Commercial Hub**
 
-Hawkinsville is the **seat of Pulaski County** and sits at the junction of **US-129, US-341, and GA-26** — a critical crossroads for commercial traffic moving between Macon, Cochran, Dublin, and the I-75 corridor. Whether you are delivering medical supplies to **Taylor Regional Hospital**, hauling freight through the **Pulaski County Industrial Park**, or running cotton gins during harvest, a breakdown here strands you far from 24-hour help ($250 after-hours call-out fee applies).
+Hawkinsville is the **seat of Pulaski County** and sits at the junction of **US-129, US-341, and GA-26** — a critical crossroads for commercial traffic moving between Macon, Cochran, Dublin, and the I-75 corridor. Whether you are delivering medical supplies to **Taylor Regional Hospital**, hauling freight through the **Pulaski County Industrial Park**, or running cotton gins during harvest, a breakdown here strands you far from 24-hour help ($250 call-out fee applies).
 
 We know Hawkinsville. Our mobile repair units regularly service trucks at:
 
@@ -534,7 +534,7 @@ We know Hawkinsville. Our mobile repair units regularly service trucks at:
 
 Hawkinsville has **more daytime repair options than smaller towns** — but every single one closes by 6 PM. For a city that serves as the commercial and medical hub of Pulaski County, that is a dangerous gap. If your ambulance fleet vehicle goes down at 9 PM, or your semi's air brakes fail on US-129 at midnight, waiting until morning is not an option.
 
-Our shop in Unadilla is just **16 miles southwest on US-129** — close enough for fast response, positioned to cover the corridor between Macon and Dublin that lacks overnight commercial service. We fill the gap: **night, weekend, and emergency service** when Hawkinsville's industrial economy keeps running but its repair shops do not ($250 after-hours call-out fee applies).
+Our shop in Unadilla is just **16 miles southwest on US-129** — close enough for fast response, positioned to cover the corridor between Macon and Dublin that lacks overnight commercial service. We fill the gap: **night, weekend, and emergency service** when Hawkinsville's industrial economy keeps running but its repair shops do not ($250 call-out fee applies).
 
 **Medical & Industrial Fleet Support**
 
@@ -575,11 +575,11 @@ Hawkinsville has a character all its own. It's long been known as the harness-ra
     faqs: [
       {
         question: "Is there 24 hour truck repair in Hawkinsville, GA?",
-        answer: "Yes. On The Spot Repair Service & Tires provides 24 hour truck repair Hawkinsville GA drivers rely on ($250 after-hours call-out fee applies). We are based in Unadilla, just 18 minutes southwest on US-129, and dispatch mobile units throughout Hawkinsville, Pulaski County, and the Ocmulgee River corridor any time of day or night — including after every local daytime shop has closed."
+        answer: "Yes. On The Spot Repair Service & Tires provides 24 hour truck repair Hawkinsville GA drivers rely on ($250 call-out fee applies). We are based in Unadilla, just 18 minutes southwest on US-129, and dispatch mobile units throughout Hawkinsville, Pulaski County, and the Ocmulgee River corridor any time of day or night — including after every local daytime shop has closed."
       },
       {
         question: "What do I do if I have a truck breakdown in Hawkinsville, GA?",
-        answer: "Call On The Spot Repair Service & Tires at 478-818-3967. We specialize in truck breakdown Hawkinsville GA emergencies — tire blowouts, air brake failures, engine trouble, and electrical issues ($250 after-hours call-out fee applies). Our mobile units carry commercial tires and diagnostic equipment, so we can get you back on US-129, US-341, or GA-26 without a tow."
+        answer: "Call On The Spot Repair Service & Tires at 478-818-3967. We specialize in truck breakdown Hawkinsville GA emergencies — tire blowouts, air brake failures, engine trouble, and electrical issues ($250 call-out fee applies). Our mobile units carry commercial tires and diagnostic equipment, so we can get you back on US-129, US-341, or GA-26 without a tow."
       },
       {
         question: "Do you offer mobile tire repair in Pulaski County?",
@@ -587,20 +587,20 @@ Hawkinsville has a character all its own. It's long been known as the harness-ra
       },
       {
         question: "Can I get roadside tire repair near Hawkinsville at night?",
-        answer: "Yes. We provide 24/7 roadside tire repair near Hawkinsville for steer tires, drive tires, and trailer tires ($250 after-hours call-out fee applies). Whether you are broken down on the US-341 river bridge at 2 AM or stuck at Taylor Regional with a flat, call us and we will dispatch a mobile unit right away."
+        answer: "Yes. We provide 24/7 roadside tire repair near Hawkinsville for steer tires, drive tires, and trailer tires ($250 call-out fee applies). Whether you are broken down on the US-341 river bridge at 2 AM or stuck at Taylor Regional with a flat, call us and we will dispatch a mobile unit right away."
       }
     ],
     services: [
-      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 call-out fee applies)" },
       { service: "Semi-Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
-      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 after-hours call-out fee applies)" },
+      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 call-out fee applies)" },
       { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
-      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 after-hours call-out fee applies)" },
-      { service: "Refrigerated Truck Unit Repair", availability: "Yes — mobile emergency ($250 after-hours call-out fee applies)" },
+      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 call-out fee applies)" },
+      { service: "Refrigerated Truck Unit Repair", availability: "Yes — mobile emergency ($250 call-out fee applies)" },
       { service: "Agricultural Equipment Repair", availability: "Yes — mobile to gin locations" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
     ],
-    schemaDescription: "24 hour truck repair Hawkinsville GA and mobile tire repair Pulaski County ($250 after-hours call-out fee applies). Roadside tire repair near Hawkinsville on US-129, US-341, and the Ocmulgee River corridor. Serving Taylor Regional Hospital, Pulaski County Industrial Park, and cotton gin operations.",
+    schemaDescription: "24 hour truck repair Hawkinsville GA and mobile tire repair Pulaski County ($250 call-out fee applies). Roadside tire repair near Hawkinsville on US-129, US-341, and the Ocmulgee River corridor. Serving Taylor Regional Hospital, Pulaski County Industrial Park, and cotton gin operations.",
     coordinates: { lat: 32.2838, lng: -83.4721 },
     nearbyTowns: [
       { name: "Perry", slug: "perry" },
@@ -626,10 +626,10 @@ Hawkinsville has a character all its own. It's long been known as the harness-ra
     competitiveGap: "Cordele shops close early despite being a major I-75 hub — truckers need overnight help",
     seasonalNote: "Watermelon harvest season brings heavy agricultural traffic",
     metaTitle: "Truck Repair Cordele GA | Emergency Tire Repair I-75 Exit 101 | On The Spot",
-    metaDescription: "Truck repair Cordele GA & emergency tire repair Cordele ($250 after-hours call-out fee applies). I-75 truck breakdown Cordele GA? 24-hour roadside service Crisp County for semis, reefers & fleets. Exit 101. Call now!",
+    metaDescription: "Truck repair Cordele GA & emergency tire repair Cordele ($250 call-out fee applies). I-75 truck breakdown Cordele GA? 24-hour roadside service Crisp County for semis, reefers & fleets. Exit 101. Call now!",
     h1Title: "24-Hour Truck & Tire Repair Near Cordele, GA — Right Off I-75",
-    heroIntro: "I-75 truck breakdown in Cordele GA? On The Spot Repair Service & Tires provides 24-hour truck repair Cordele GA drivers trust — covering I-75 Exit 101 and the entire Crisp County corridor ($250 after-hours call-out fee applies). We are the closest overnight mobile mechanic to Lake Blackshear and the produce warehouses.",
-    heroSecondary: "From emergency tire repair Cordele blowouts on the interstate to reefer unit failures at the Intermodal yard, we handle semis, refrigerated trailers, and fleet vehicles ($250 after-hours call-out fee applies). 24 hour roadside service Crisp County — no tow needed. We come to you.",
+    heroIntro: "I-75 truck breakdown in Cordele GA? On The Spot Repair Service & Tires provides 24-hour truck repair Cordele GA drivers trust — covering I-75 Exit 101 and the entire Crisp County corridor ($250 call-out fee applies). We are the closest overnight mobile mechanic to Lake Blackshear and the produce warehouses.",
+    heroSecondary: "From emergency tire repair Cordele blowouts on the interstate to reefer unit failures at the Intermodal yard, we handle semis, refrigerated trailers, and fleet vehicles ($250 call-out fee applies). 24 hour roadside service Crisp County — no tow needed. We come to you.",
     localContent: `**Serving the Watermelon Capital of the World**
 
 Cordele proudly calls itself the **Watermelon Capital of the World** — and that agricultural heritage means trucks. Lots of trucks. Located at **I-75 Exit 101** in **Crisp County**, Cordele is a major shipping hub for produce, peanuts, pecans, and agricultural products moving between South Georgia farms and markets across the country.
@@ -646,7 +646,7 @@ We know Cordele. Our mobile repair units regularly service trucks at:
 
 Cordele sits at a **critical I-75 junction** between Atlanta and Florida — thousands of trucks pass through daily. But when the sun sets, Cordele's repair shops close. If your produce load is spoiling because the reefer went down at 10 PM, or your steer tire shreds on I-75 at 3 AM, you need someone who answers the phone.
 
-Our shop in Unadilla is just **22 miles north on I-75** — we can reach Exit 101 in about 25 minutes. We are the closest 24-hour commercial truck service for Cordele and Crisp County ($250 after-hours call-out fee applies).
+Our shop in Unadilla is just **22 miles north on I-75** — we can reach Exit 101 in about 25 minutes. We are the closest 24-hour commercial truck service for Cordele and Crisp County ($250 call-out fee applies).
 
 **Agricultural & Produce Hauling Support**
 
@@ -671,7 +671,7 @@ Lake Blackshear and Georgia Veterans State Park bring **RV traffic** and tourist
 
 Cordele is one of the most important **I-75 trucking stops** between Macon and the Florida line. **Exit 101** feeds a cluster of truck stops, fuel islands, and the Cordele Intermodal Services rail-to-truck terminal, making it a constant magnet for commercial traffic. When you have an **I-75 truck breakdown Cordele GA** drivers know the local shops keep daytime hours — which is exactly the gap we fill. On The Spot Repair Service & Tires provides **24 hour roadside service Crisp County** wide, covering I-75 in both directions around Exit 101.
 
-This is **watermelon country**, and during the May-through-August harvest, loaded produce trucks pour onto I-75 racing delivery windows. A blowout on a hot interstate shoulder or a reefer alarm at 2 AM can spoil an entire load. That is why **emergency tire repair Cordele** and reefer diagnostics are among our most frequent overnight calls ($250 after-hours call-out fee applies). We dispatch a fully-equipped mobile unit from Unadilla — just 22 miles north on I-75 — carrying commercial tires, air brake parts, and refrigeration diagnostic tools to get you rolling without a tow.
+This is **watermelon country**, and during the May-through-August harvest, loaded produce trucks pour onto I-75 racing delivery windows. A blowout on a hot interstate shoulder or a reefer alarm at 2 AM can spoil an entire load. That is why **emergency tire repair Cordele** and reefer diagnostics are among our most frequent overnight calls ($250 call-out fee applies). We dispatch a fully-equipped mobile unit from Unadilla — just 22 miles north on I-75 — carrying commercial tires, air brake parts, and refrigeration diagnostic tools to get you rolling without a tow.
 
 **The I-75 Exit 101 Corridor Never Sleeps**
 
@@ -691,23 +691,23 @@ The Exit 101 interchange has only gotten busier. Truck-stop expansion around the
     faqs: [
       {
         question: "Where can I find truck repair in Cordele, GA?",
-        answer: "On The Spot Repair Service & Tires provides truck repair Cordele GA drivers rely on. We are based in Unadilla, just 25 minutes north on I-75, and offer 24/7 mobile service throughout Cordele, Crisp County, and the I-75 corridor at Exit 101. We handle semis, reefers, fleet vehicles, and passenger cars — on-site, no tow needed ($250 after-hours call-out fee applies)."
+        answer: "On The Spot Repair Service & Tires provides truck repair Cordele GA drivers rely on. We are based in Unadilla, just 25 minutes north on I-75, and offer 24/7 mobile service throughout Cordele, Crisp County, and the I-75 corridor at Exit 101. We handle semis, reefers, fleet vehicles, and passenger cars — on-site, no tow needed ($250 call-out fee applies)."
       },
       {
         question: "Do you offer emergency tire repair on I-75 near Cordele?",
-        answer: "Yes. Emergency tire repair I-75 Cordele is one of our most common calls, especially during watermelon harvest ($250 after-hours call-out fee applies). We carry commercial steer, drive, and trailer tires on our mobile units and can mount, balance, and get you rolling on either side of I-75 near Exit 101 — day or night, without a tow."
+        answer: "Yes. Emergency tire repair I-75 Cordele is one of our most common calls, especially during watermelon harvest ($250 call-out fee applies). We carry commercial steer, drive, and trailer tires on our mobile units and can mount, balance, and get you rolling on either side of I-75 near Exit 101 — day or night, without a tow."
       },
       {
         question: "What do I do if I have an I-75 truck breakdown in Cordele, GA?",
-        answer: "Call On The Spot Repair Service & Tires at 478-818-3967. We specialize in I-75 truck breakdown Cordele GA emergencies — tire blowouts, air brake failures, engine trouble, and reefer alarms ($250 after-hours call-out fee applies). Our mobile units reach Exit 101 in about 25 minutes from Unadilla and carry the tires, parts, and diagnostic tools to get you back on the road."
+        answer: "Call On The Spot Repair Service & Tires at 478-818-3967. We specialize in I-75 truck breakdown Cordele GA emergencies — tire blowouts, air brake failures, engine trouble, and reefer alarms ($250 call-out fee applies). Our mobile units reach Exit 101 in about 25 minutes from Unadilla and carry the tires, parts, and diagnostic tools to get you back on the road."
       },
       {
         question: "Is there 24 hour roadside service in Crisp County?",
-        answer: "Absolutely. On The Spot Repair Service & Tires is the closest 24 hour roadside service Crisp County option ($250 after-hours call-out fee applies). From I-75 Exit 101 to Lake Blackshear to downtown Cordele, we provide round-the-clock mobile repair for trucks, RVs, and produce haulers — including emergency reefer diagnostics to protect perishable loads."
+        answer: "Absolutely. On The Spot Repair Service & Tires is the closest 24 hour roadside service Crisp County option ($250 call-out fee applies). From I-75 Exit 101 to Lake Blackshear to downtown Cordele, we provide round-the-clock mobile repair for trucks, RVs, and produce haulers — including emergency reefer diagnostics to protect perishable loads."
       },
       {
         question: "Is there 24-hour truck repair near Cordele?",
-        answer: "Yes. On The Spot Repair Service & Tires offers true 24-hour truck repair near Cordele, GA ($250 after-hours call-out fee applies). We answer the phone at 2 AM, on weekends, and on holidays — exactly when Cordele's daytime shops are closed. Our mobile units dispatch from Unadilla and reach Cordele and I-75 Exit 101 in about 25 minutes with the tires, parts, and tools to fix you on the spot."
+        answer: "Yes. On The Spot Repair Service & Tires offers true 24-hour truck repair near Cordele, GA ($250 call-out fee applies). We answer the phone at 2 AM, on weekends, and on holidays — exactly when Cordele's daytime shops are closed. Our mobile units dispatch from Unadilla and reach Cordele and I-75 Exit 101 in about 25 minutes with the tires, parts, and tools to fix you on the spot."
       },
       {
         question: "Can you reach I-75 near Cordele?",
@@ -715,16 +715,16 @@ The Exit 101 interchange has only gotten busier. Truck-stop expansion around the
       }
     ],
     services: [
-      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 call-out fee applies)" },
       { service: "Semi-Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
-      { service: "Refrigerated Trailer Repair", availability: "Yes — emergency reefer service ($250 after-hours call-out fee applies)" },
-      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 after-hours call-out fee applies)" },
+      { service: "Refrigerated Trailer Repair", availability: "Yes — emergency reefer service ($250 call-out fee applies)" },
+      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 call-out fee applies)" },
       { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
       { service: "RV & Recreational Vehicle Service", availability: "Yes — mobile" },
-      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 after-hours call-out fee applies)" },
+      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 call-out fee applies)" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
     ],
-    schemaDescription: "Truck repair Cordele GA and emergency tire repair Cordele ($250 after-hours call-out fee applies). 24 hour roadside service Crisp County for I-75 truck breakdown Cordele GA at Exit 101. Mobile service to Lake Blackshear, produce warehouses, and Crisp County agricultural operations.",
+    schemaDescription: "Truck repair Cordele GA and emergency tire repair Cordele ($250 call-out fee applies). 24 hour roadside service Crisp County for I-75 truck breakdown Cordele GA at Exit 101. Mobile service to Lake Blackshear, produce warehouses, and Crisp County agricultural operations.",
     coordinates: { lat: 31.9635, lng: -83.7821 },
     nearbyTowns: [
       { name: "Vienna", slug: "vienna" },
@@ -750,17 +750,17 @@ The Exit 101 interchange has only gotten busier. Truck-stop expansion around the
     industries: ["Residential", "Light commercial", "Agriculture", "Commuter community"],
     competitiveGap: "Tiny community with zero local repair options — we are the closest truck repair shop to Elko with 30-minute dispatch",
     metaTitle: "Closest Truck Repair Shop to Elko, GA | 24-Hour Tire & Semi Service",
-    metaDescription: "Closest truck repair shop to Elko, GA. 24 hr road service near me for semi tire repair, roadside assistance & mobile mechanic ($250 after-hours call-out fee applies). 30-min dispatch on US-341. Call now!",
+    metaDescription: "Closest truck repair shop to Elko, GA. 24 hr road service near me for semi tire repair, roadside assistance & mobile mechanic ($250 call-out fee applies). 30-min dispatch on US-341. Call now!",
     h1Title: "24-Hour Truck & Tire Repair Near Elko, GA",
-    heroIntro: "Looking for the closest truck repair shop to Elko? On The Spot Repair Service & Tires is just 10 minutes south on US-341 — the nearest 24/7 mobile mechanic serving Elko, Houston County, and the Telfair County border ($250 after-hours call-out fee applies). We dispatch within 30 minutes.",
-    heroSecondary: "Whether you need roadside semi tire repair near me, 24 hr road service near me, or truck tire repair near me — we bring the shop to you ($250 after-hours call-out fee applies). No tow needed. Semis, fleet trucks, and passenger vehicles. Day or night.",
+    heroIntro: "Looking for the closest truck repair shop to Elko? On The Spot Repair Service & Tires is just 10 minutes south on US-341 — the nearest 24/7 mobile mechanic serving Elko, Houston County, and the Telfair County border ($250 call-out fee applies). We dispatch within 30 minutes.",
+    heroSecondary: "Whether you need roadside semi tire repair near me, 24 hr road service near me, or truck tire repair near me — we bring the shop to you ($250 call-out fee applies). No tow needed. Semis, fleet trucks, and passenger vehicles. Day or night.",
     localContent: `**The Closest Truck Repair Shop to Elko, GA**
 
 Elko is one of those **blink-and-you-miss-it communities** along US-341 at the Houston/Telfair County line — but that does not mean its residents and the trucks passing through deserve slow service. Located just **8 miles north of Unadilla**, Elko sits on a busy commercial corridor that connects Perry to McRae-Helena and sees steady truck traffic daily.
 
 **Why We Are the Closest Truck Repair Shop to Elko**
 
-Elko has **no local repair shops** — none. The nearest options are Perry (15 minutes north) or our Unadilla shop (10 minutes south). But here is the difference: we offer **24/7 mobile service with 30-minute dispatch** to Elko ($250 after-hours call-out fee applies). When you call us at 2 AM with a blown steer tire on US-341, we are already rolling — not telling you to wait until morning.
+Elko has **no local repair shops** — none. The nearest options are Perry (15 minutes north) or our Unadilla shop (10 minutes south). But here is the difference: we offer **24/7 mobile service with 30-minute dispatch** to Elko ($250 call-out fee applies). When you call us at 2 AM with a blown steer tire on US-341, we are already rolling — not telling you to wait until morning.
 
 **US-341 Corridor Coverage**
 
@@ -781,7 +781,7 @@ Elko sits right at the **Houston/Telfair County line**. We cover both sides — 
 
 **Why Elko Drivers Save Our Number Before They Need It**
 
-Elko sits right where US-341 meets the heart of Houston County, and that intersection sees more commercial truck traffic than most people realize. With Perry's industrial growth spilling southward and the steady flow of freight moving between Macon and Cordele, Elko has become a critical pass-through for box trucks and semis that can't afford downtime. Our mobile units are stationed just 10 minutes south in Unadilla, which means when your steer tire blows on US-341 or your air compressor fails heading to a Perry delivery, we're already closer than any shop in Macon. We know this stretch of road — the tight shoulders, the limited pull-off spots, the fact that there's no 24-hour service for miles in either direction ($250 after-hours call-out fee applies). That's why Elko drivers save our number before they need it.
+Elko sits right where US-341 meets the heart of Houston County, and that intersection sees more commercial truck traffic than most people realize. With Perry's industrial growth spilling southward and the steady flow of freight moving between Macon and Cordele, Elko has become a critical pass-through for box trucks and semis that can't afford downtime. Our mobile units are stationed just 10 minutes south in Unadilla, which means when your steer tire blows on US-341 or your air compressor fails heading to a Perry delivery, we're already closer than any shop in Macon. We know this stretch of road — the tight shoulders, the limited pull-off spots, the fact that there's no 24-hour service for miles in either direction ($250 call-out fee applies). That's why Elko drivers save our number before they need it.
 
 **Full List of Truck & Tire Services We Bring to Elko**
 
@@ -801,10 +801,10 @@ Elko's biggest advantage is how close it sits to the interstate. Our Unadilla ho
 
 **Growth Along the Perry–Elko Corridor**
 
-Elko is feeling the ripple effect of Houston County's southward expansion. Perry's push to grow warehousing and light-industrial space around the I-75 Exit 135 and Exit 136 interchanges — plus the year-round event schedule at the Georgia National Fairgrounds just up the road — is steadily pulling more freight down US-341 through Elko than the corridor saw even a few years ago. New distribution and agricultural-supply traffic means more loaded trucks on a two-lane stretch that still has no repair shop of its own. As that development creeps closer to Elko, we've positioned our mobile units to cover the gap, so a growing freight route never outpaces the emergency service behind it ($250 after-hours call-out fee applies).`,
+Elko is feeling the ripple effect of Houston County's southward expansion. Perry's push to grow warehousing and light-industrial space around the I-75 Exit 135 and Exit 136 interchanges — plus the year-round event schedule at the Georgia National Fairgrounds just up the road — is steadily pulling more freight down US-341 through Elko than the corridor saw even a few years ago. New distribution and agricultural-supply traffic means more loaded trucks on a two-lane stretch that still has no repair shop of its own. As that development creeps closer to Elko, we've positioned our mobile units to cover the gap, so a growing freight route never outpaces the emergency service behind it ($250 call-out fee applies).`,
     spanishContent: `**Servicio de Reparación de Camiones — Elko, GA**
 
-¿Necesita reparación de llantas de camión cerca de Elko? On The Spot Repair Service & Tires ofrece servicio móvil las 24 horas del día, los 7 días de la semana para camiones comerciales, semirremolques y vehículos de pasajeros (se aplica un cargo de $250 por servicio fuera de horario). Estamos a solo 10 minutos al sur de Elko en la US-341. Hablamos su idioma y entendemos la urgencia cuando su camión está varado. Llame ahora: 478-818-3967.`,
+¿Necesita reparación de llantas de camión cerca de Elko? On The Spot Repair Service & Tires ofrece servicio móvil las 24 horas del día, los 7 días de la semana para camiones comerciales, semirremolques y vehículos de pasajeros (se aplica un cargo de $250 por cada llamada de servicio). Estamos a solo 10 minutos al sur de Elko en la US-341. Hablamos su idioma y entendemos la urgencia cuando su camión está varado. Llame ahora: 478-818-3967.`,
     commonCalls: [
       "Roadside semi tire repair on US-341",
       "24 hr road service for truck breakdowns",
@@ -816,11 +816,11 @@ Elko is feeling the ripple effect of Houston County's southward expansion. Perry
     faqs: [
       {
         question: "What is the closest truck repair shop to Elko, GA?",
-        answer: "On The Spot Repair Service & Tires in Unadilla is the closest truck repair shop to Elko — just 10 minutes south on US-341. We offer 24/7 mobile service with 30-minute dispatch, so we can come to you for roadside repairs without the need for a tow ($250 after-hours call-out fee applies)."
+        answer: "On The Spot Repair Service & Tires in Unadilla is the closest truck repair shop to Elko — just 10 minutes south on US-341. We offer 24/7 mobile service with 30-minute dispatch, so we can come to you for roadside repairs without the need for a tow ($250 call-out fee applies)."
       },
       {
         question: "Do you offer 24 hr road service near me in Elko?",
-        answer: "Yes. We provide true 24/7 emergency road service to Elko and the US-341 corridor ($250 after-hours call-out fee applies). Whether it is 2 AM on a Tuesday or noon on Sunday, call 478-818-3967 and we will dispatch a mobile unit to your location — typically within 30 minutes."
+        answer: "Yes. We provide true 24/7 emergency road service to Elko and the US-341 corridor ($250 call-out fee applies). Whether it is 2 AM on a Tuesday or noon on Sunday, call 478-818-3967 and we will dispatch a mobile unit to your location — typically within 30 minutes."
       },
       {
         question: "Can you do roadside semi tire repair near me in Elko?",
@@ -828,19 +828,19 @@ Elko is feeling the ripple effect of Houston County's southward expansion. Perry
       },
       {
         question: "Is there truck tire repair near me if I break down near Elko?",
-        answer: "Yes. On The Spot Repair Service & Tires provides mobile truck tire repair throughout Elko, Houston County, and the Telfair County border. We service semi-trucks, box trucks, delivery vans, and fleet vehicles. Call us anytime — we are the closest 24/7 option to Elko ($250 after-hours call-out fee applies)."
+        answer: "Yes. On The Spot Repair Service & Tires provides mobile truck tire repair throughout Elko, Houston County, and the Telfair County border. We service semi-trucks, box trucks, delivery vans, and fleet vehicles. Call us anytime — we are the closest 24/7 option to Elko ($250 call-out fee applies)."
       }
     ],
     services: [
-      { service: "24/7 Roadside Semi Tire Repair", availability: "Yes — 30-min dispatch ($250 after-hours call-out fee applies)" },
-      { service: "24 Hr Road Service", availability: "Yes — mobile ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Roadside Semi Tire Repair", availability: "Yes — 30-min dispatch ($250 call-out fee applies)" },
+      { service: "24 Hr Road Service", availability: "Yes — mobile ($250 call-out fee applies)" },
       { service: "Truck Tire Repair", availability: "Yes — mobile" },
       { service: "Farm Equipment Service", availability: "Yes �� mobile" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" },
       { service: "Jump-starts & Battery Service", availability: "Yes — mobile" },
-      { service: "Lockout Assistance", availability: "Yes — 24/7 ($250 after-hours call-out fee applies)" }
+      { service: "Lockout Assistance", availability: "Yes — 24/7 ($250 call-out fee applies)" }
     ],
-    schemaDescription: "Closest truck repair shop to Elko, GA. 24/7 mobile semi tire repair, roadside assistance, and emergency road service on US-341. 30-minute dispatch from Unadilla ($250 after-hours call-out fee applies).",
+    schemaDescription: "Closest truck repair shop to Elko, GA. 24/7 mobile semi tire repair, roadside assistance, and emergency road service on US-341. 30-minute dispatch from Unadilla ($250 call-out fee applies).",
     coordinates: { lat: 32.3318, lng: -83.7654 },
     nearbyTowns: [
       { name: "Unadilla", slug: "unadilla" },
@@ -866,8 +866,8 @@ Elko is feeling the ripple effect of Houston County's southward expansion. Perry
     competitiveGap: "Rural farm town with no local repair options — farmers depend on mobile service during harvest",
     seasonalNote: "Peanut and cotton harvest seasons bring emergency calls from the fields",
     metaTitle: "24-Hour Truck Repair in Byromville, GA | On The Spot Repair Service & Tires",
-    metaDescription: "24/7 truck repair near me & tire repair near me in Byromville, GA ($250 after-hours call-out fee applies). Mobile farm truck service. Peanut & cotton harvest support. Call now!",
-    heroIntro: "Farm truck broken down during harvest? Flat tire on a Dooly County backroad? On The Spot Repair Service & Tires is your 24/7 emergency repair team — just 12 minutes from Byromville ($250 after-hours call-out fee applies). We bring the shop to the field.",
+    metaDescription: "24/7 truck repair near me & tire repair near me in Byromville, GA ($250 call-out fee applies). Mobile farm truck service. Peanut & cotton harvest support. Call now!",
+    heroIntro: "Farm truck broken down during harvest? Flat tire on a Dooly County backroad? On The Spot Repair Service & Tires is your 24/7 emergency repair team — just 12 minutes from Byromville ($250 call-out fee applies). We bring the shop to the field.",
     heroSecondary: "Byromville is farm country, and we understand that when peanuts are ready or cotton is waiting, you cannot afford downtime. From grain hauler tire blowouts to diesel engine failures, we provide mobile service to Byromville's agricultural operations.",
     localContent: `**Serving Byromville's Farming Community**
 
@@ -886,7 +886,7 @@ We know Byromville. Our mobile repair units regularly service vehicles at:
 
 Farming does not run on a 9-to-5 schedule — and neither do we. During **peanut harvest** (September through November) and **cotton harvest** (October through December), trucks run from dawn until well past dark. Breakdowns happen at midnight. Flat tires happen in the field. Engine failures happen on Sunday.
 
-We are the **only 24/7 repair service** that covers Byromville with true mobile capability ($250 after-hours call-out fee applies). Our shop in Unadilla is just **10 miles away on GA-90** — we can reach your location in about 12 minutes.
+We are the **only 24/7 repair service** that covers Byromville with true mobile capability ($250 call-out fee applies). Our shop in Unadilla is just **10 miles away on GA-90** — we can reach your location in about 12 minutes.
 
 **Harvest Season Emergency Support**
 
@@ -897,7 +897,7 @@ When the weather is right and the crop is ready, every hour counts:
 - Farm trucks hauling loads to the processor
 - Equipment trailers shuttling between fields
 
-A breakdown during harvest is not just an inconvenience — it is lost revenue, spoiled crop, missed delivery windows. We provide **emergency harvest support** to keep Byromville's farms running ($250 after-hours call-out fee applies).
+A breakdown during harvest is not just an inconvenience — it is lost revenue, spoiled crop, missed delivery windows. We provide **emergency harvest support** to keep Byromville's farms running ($250 call-out fee applies).
 
 **Year-Round Farm Fleet Service**
 
@@ -905,7 +905,7 @@ Beyond harvest season, Byromville's farms depend on trucks and equipment year-ro
 
 **No Other Option That Answers After Dark**
 
-Byromville is the definition of rural Georgia — peanut fields, cotton rows, and two-lane roads where a blown tire means you're walking farther than you want to in July heat. There are no truck shops in Byromville. No 24-hour service ($250 after-hours call-out fee applies). No tow truck that can handle a loaded semi without calling Macon and waiting two hours. We know this because we've been called to Byromville at 11 PM, at 4 AM, and on Sunday afternoons when harvest can't wait. Our mobile units carry commercial-grade tires, air brake tools, and diesel diagnostics because out here, "I'll fix it tomorrow" costs more than the repair bill — it costs the crop, the contract, and the week's revenue. We come to you because in Byromville, there isn't another option that answers the phone after dark.
+Byromville is the definition of rural Georgia — peanut fields, cotton rows, and two-lane roads where a blown tire means you're walking farther than you want to in July heat. There are no truck shops in Byromville. No 24-hour service ($250 call-out fee applies). No tow truck that can handle a loaded semi without calling Macon and waiting two hours. We know this because we've been called to Byromville at 11 PM, at 4 AM, and on Sunday afternoons when harvest can't wait. Our mobile units carry commercial-grade tires, air brake tools, and diesel diagnostics because out here, "I'll fix it tomorrow" costs more than the repair bill — it costs the crop, the contract, and the week's revenue. We come to you because in Byromville, there isn't another option that answers the phone after dark.
 
 **A Small Town on the Line Between Two Counties**
 
@@ -921,7 +921,7 @@ Byromville sits tucked into the northeast corner of Dooly County, right where th
     faqs: [
       {
         question: "Do you provide 24/7 truck repair near Byromville, GA?",
-        answer: "Yes. We are based in Unadilla, just 12 minutes from Byromville on GA-90, and provide 24-hour mobile truck and tire repair throughout rural Dooly County ($250 after-hours call-out fee applies). We specialize in farm truck service and harvest season emergency support."
+        answer: "Yes. We are based in Unadilla, just 12 minutes from Byromville on GA-90, and provide 24-hour mobile truck and tire repair throughout rural Dooly County ($250 call-out fee applies). We specialize in farm truck service and harvest season emergency support."
       },
       {
         question: "Can you come to my farm field for a breakdown during harvest?",
@@ -933,15 +933,15 @@ Byromville sits tucked into the northeast corner of Dooly County, right where th
       }
     ],
     services: [
-      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile to field locations ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile to field locations ($250 call-out fee applies)" },
       { service: "Farm Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
       { service: "Agricultural Equipment Service", availability: "Yes — mobile" },
       { service: "Harvest Season Priority Response", availability: "Yes — call for availability" },
-      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 after-hours call-out fee applies)" },
+      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 call-out fee applies)" },
       { service: "Diesel Repair", availability: "Yes — mobile" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
     ],
-    schemaDescription: "24/7 truck repair and tire repair near Byromville, GA ($250 after-hours call-out fee applies). Mobile farm truck service for peanut and cotton harvest operations in rural Dooly County.",
+    schemaDescription: "24/7 truck repair and tire repair near Byromville, GA ($250 call-out fee applies). Mobile farm truck service for peanut and cotton harvest operations in rural Dooly County.",
     coordinates: { lat: 32.2046, lng: -83.9082 }
   },
 
@@ -962,9 +962,9 @@ Byromville sits tucked into the northeast corner of Dooly County, right where th
     competitiveGap: "Rural county seat with limited repair options — no 24-hour service available locally",
     seasonalNote: "Peanut harvest brings heavy truck traffic through Montezuma",
     metaTitle: "Truck Repair Montezuma GA | On The Spot Repair Services",
-    metaDescription: "Truck repair Montezuma GA — 24/7 mobile truck & tire repair across Macon County ($250 after-hours call-out fee applies). Roadside service on GA-26 for peanut haulers, fleets & farm trucks. Call now!",
+    metaDescription: "Truck repair Montezuma GA — 24/7 mobile truck & tire repair across Macon County ($250 call-out fee applies). Roadside service on GA-26 for peanut haulers, fleets & farm trucks. Call now!",
     h1Title: "Truck & Tire Repair in Montezuma, GA — 24-Hour Mobile Service",
-    heroIntro: "Truck trouble outside the Macon County Courthouse? Flat tire hauling peanuts on GA-26? Our 24/7 emergency repair team is just 22 minutes from Montezuma — and we bring the shop to you ($250 after-hours call-out fee applies).",
+    heroIntro: "Truck trouble outside the Macon County Courthouse? Flat tire hauling peanuts on GA-26? Our 24/7 emergency repair team is just 22 minutes from Montezuma — and we bring the shop to you ($250 call-out fee applies).",
     heroSecondary: "Montezuma sits in the heart of Georgia peanut country, and we understand that agricultural operations cannot wait. From loaded peanut haulers to county fleet vehicles, we provide mobile truck and tire service throughout Macon County.",
     localContent: `**Serving Macon County's Agricultural Hub**
 
@@ -980,9 +980,9 @@ We know Montezuma. Our mobile repair units regularly service vehicles at:
 
 **Why Montezuma Drivers Call Us First**
 
-Montezuma is a **county seat without 24-hour truck service** ($250 after-hours call-out fee applies). The local shops close by early evening, and the nearest alternatives are in Americus or Perry — both 20+ minutes away with no guarantee of overnight availability.
+Montezuma is a **county seat without 24-hour truck service** ($250 call-out fee applies). The local shops close by early evening, and the nearest alternatives are in Americus or Perry — both 20+ minutes away with no guarantee of overnight availability.
 
-Our shop in Unadilla is just **20 miles east on GA-26** — we can reach Montezuma in about 22 minutes. We are the reliable 24-hour option for Macon County when local shops are closed ($250 after-hours call-out fee applies).
+Our shop in Unadilla is just **20 miles east on GA-26** — we can reach Montezuma in about 22 minutes. We are the reliable 24-hour option for Macon County when local shops are closed ($250 call-out fee applies).
 
 **Peanut Country Support**
 
@@ -993,7 +993,7 @@ Macon County grows **peanuts** — a lot of them. During harvest season (Septemb
 - Equipment trailers and combines
 - Diesel pickups supporting harvest operations
 
-When a loaded peanut truck breaks down at 9 PM, the processor does not care why you are late — they just need the load. We provide **emergency harvest support** to keep Montezuma's peanut industry moving ($250 after-hours call-out fee applies).
+When a loaded peanut truck breaks down at 9 PM, the processor does not care why you are late — they just need the load. We provide **emergency harvest support** to keep Montezuma's peanut industry moving ($250 call-out fee applies).
 
 **County Government Fleet Support**
 
@@ -1008,7 +1008,7 @@ We offer account billing and priority dispatch for government fleet accounts.
 
 **Downtown Revitalization & Rising Freight**
 
-Montezuma's Downtown Development Authority has been actively revitalizing the commercial district since 1981, and that investment is starting to pay off with new storefronts, façade grants, and increased freight traffic serving the growing business base. The CDBG-funded infrastructure work on S. Dooly Street and Lavender Street means more construction vehicles, more delivery trucks, and more pressure on local roads that weren't built for modern commercial traffic. When a box truck delivering to a renovated downtown storefront clips a curb and blows a steer tire, or when a contractor's diesel pickup won't start at the job site, Montezuma doesn't have a 24-hour option — except us ($250 after-hours call-out fee applies). We're 22 minutes west in Unadilla, and we know Macon County's backroads well enough to find you even when GPS loses signal.
+Montezuma's Downtown Development Authority has been actively revitalizing the commercial district since 1981, and that investment is starting to pay off with new storefronts, façade grants, and increased freight traffic serving the growing business base. The CDBG-funded infrastructure work on S. Dooly Street and Lavender Street means more construction vehicles, more delivery trucks, and more pressure on local roads that weren't built for modern commercial traffic. When a box truck delivering to a renovated downtown storefront clips a curb and blows a steer tire, or when a contractor's diesel pickup won't start at the job site, Montezuma doesn't have a 24-hour option — except us ($250 call-out fee applies). We're 22 minutes west in Unadilla, and we know Macon County's backroads well enough to find you even when GPS loses signal.
 
 **A Rail-and-Road Crossroads Getting Busier**
 
@@ -1024,7 +1024,7 @@ Montezuma has always been a crossroads town — it grew up around the rail line 
     faqs: [
       {
         question: "Do you offer 24/7 truck repair near Montezuma, GA?",
-        answer: "Yes. We are based in Unadilla, just 22 minutes east on GA-26, and provide 24-hour mobile truck and tire repair throughout Montezuma and Macon County ($250 after-hours call-out fee applies). We are the closest 24/7 commercial truck service to Montezuma."
+        answer: "Yes. We are based in Unadilla, just 22 minutes east on GA-26, and provide 24-hour mobile truck and tire repair throughout Montezuma and Macon County ($250 call-out fee applies). We are the closest 24/7 commercial truck service to Montezuma."
       },
       {
         question: "Can you service peanut haulers and agricultural trucks in Macon County?",
@@ -1036,15 +1036,15 @@ Montezuma has always been a crossroads town — it grew up around the rail line 
       }
     ],
     services: [
-      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 after-hours call-out fee applies)" },
+      { service: "24/7 Emergency Tire Repair", availability: "Yes — mobile ($250 call-out fee applies)" },
       { service: "Semi-Truck Engine Repair", availability: "Yes — mobile or tow to shop" },
       { service: "Agricultural Truck Service", availability: "Yes — mobile" },
-      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 after-hours call-out fee applies)" },
+      { service: "Brake Service & DOT Inspections", availability: "Yes — by appointment or emergency ($250 call-out fee applies)" },
       { service: "Fleet Maintenance Programs", availability: "Yes — account billing available" },
-      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 after-hours call-out fee applies)" },
+      { service: "Roadside Assistance", availability: "Yes — 24/7 ($250 call-out fee applies)" },
       { service: "Passenger Vehicle Repair", availability: "Yes — tow to Unadilla shop" }
     ],
-    schemaDescription: "24/7 truck repair and tire repair in Montezuma, GA ($250 after-hours call-out fee applies). Mobile service to Macon County Courthouse, GA-26 corridor, and peanut farming operations.",
+    schemaDescription: "24/7 truck repair and tire repair in Montezuma, GA ($250 call-out fee applies). Mobile service to Macon County Courthouse, GA-26 corridor, and peanut farming operations.",
     coordinates: { lat: 32.3052, lng: -84.0274 }
   }
 }

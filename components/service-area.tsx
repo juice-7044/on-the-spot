@@ -26,7 +26,7 @@ export default function ServiceArea() {
             We Cover Middle Georgia
           </h2>
           <p className="font-sans text-gray-400 text-lg max-w-2xl mx-auto">
-            24/7 mobile roadside assistance within 30 miles of Unadilla ($250 after-hours call-out fee applies). Click any town below for location-specific service information.
+            24/7 mobile roadside assistance within 30 miles of Unadilla ($250 call-out fee applies). Click any town below for location-specific service information.
           </p>
         </div>
 

@@ -348,7 +348,7 @@ Call Now: 478-818-3967
                   Nearby Service Areas
                 </h3>
                 <p className="text-[#666] mb-4">
-                  We also provide 24/7 mobile truck and tire repair to these nearby communities ($250 after-hours call-out fee applies):
+                  We also provide 24/7 mobile truck and tire repair to these nearby communities ($250 call-out fee applies):
                 </p>
                 <div className="flex flex-wrap gap-3">
                   {townData.nearbyTowns.map((nearbyTown) => (
@@ -376,7 +376,7 @@ Call Now: 478-818-3967
                   Our South Georgia Service Area
                 </h2>
                 <p className="text-[#666] max-w-2xl mx-auto">
-                  From our central Unadilla home base at I-75 Exit 121, we dispatch 24/7 mobile truck and tire repair across all of these communities ($250 after-hours call-out fee applies). Click any town for local service details.
+                  From our central Unadilla home base at I-75 Exit 121, we dispatch 24/7 mobile truck and tire repair across all of these communities ($250 call-out fee applies). Click any town for local service details.
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -460,7 +460,7 @@ Call Now: 478-818-3967
                     {
                       icon: Truck,
                       title: "Priority Dispatch",
-                      desc: "Fleet accounts jump the line for 24/7 emergency roadside response ($250 after-hours call-out fee applies).",
+                      desc: "Fleet accounts jump the line for 24/7 emergency roadside response ($250 call-out fee applies).",
                     },
                     {
                       icon: ClipboardCheck,

@@ -9,12 +9,12 @@ const FAQ_ITEMS = [
   {
     question: "Do you offer 24/7 truck tire repair near me?",
     answer:
-      "Yes. On The Spot Repair Service & Tires provides 24/7 emergency truck tire repair throughout Unadilla, GA and the surrounding area. Whether you have a blowout on I-75, a slow leak at the shipper, or a flat in the yard at 2 AM, our mobile service can come to you. Call us anytime — day, night, or weekend ($250 after-hours call-out fee applies).",
+      "Yes. On The Spot Repair Service & Tires provides 24/7 emergency truck tire repair throughout Unadilla, GA and the surrounding area. Whether you have a blowout on I-75, a slow leak at the shipper, or a flat in the yard at 2 AM, our mobile service can come to you. Call us anytime — day, night, or weekend ($250 call-out fee applies).",
   },
   {
-    question: "Do you charge extra after hours?",
+    question: "Is there a call-out fee?",
     answer:
-      "Yes. Any service outside shop hours has a $250 after-hours call-out fee, plus parts and labor. This includes drive-ins at the shop after closing, even if our team is still on site. We always quote the full price before starting, and no work begins until you approve it.",
+      "Yes. Every roadside or mobile call has a $250 call-out fee, any time of day. Work at the shop during shop hours has no call-out fee. After hours, the $250 fee also applies at the shop, even if our team is still on site. Fees are in addition to parts and labor, and we always quote the full price before starting.",
   },
   {
     question: "Do you service both semi-trucks and passenger vehicles?",
@@ -24,7 +24,7 @@ const FAQ_ITEMS = [
   {
     question: "What areas do you cover for roadside truck repair?",
     answer:
-      "We cover Unadilla, GA and surrounding communities including Perry, Vienna, Hawkinsville, Cordele, and along major corridors like I-75 and US-41. If you're broken down within a reasonable radius of our shop, we can dispatch a technician to your location for emergency roadside service ($250 after-hours call-out fee applies).",
+      "We cover Unadilla, GA and surrounding communities including Perry, Vienna, Hawkinsville, Cordele, and along major corridors like I-75 and US-41. If you're broken down within a reasonable radius of our shop, we can dispatch a technician to your location for emergency roadside service ($250 call-out fee applies).",
   },
   {
     question: "Can you handle major engine and driveline repairs, or just tires?",

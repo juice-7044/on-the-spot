@@ -63,7 +63,7 @@ export default function HoursContact() {
               <p className="font-sans text-muted-foreground text-sm leading-relaxed">
                 <span className="text-primary font-semibold">Note:</span> We are closed on Sundays but remain available for 24 hour emergency roadside assistance at{" "}
                 <a href="tel:+14788183967" className="font-semibold text-foreground underline underline-offset-2">(478) 818-3967</a>{" "}
-                ($250 after-hours call-out fee applies).
+                ($250 call-out fee applies).
               </p>
             </div>
           </div>

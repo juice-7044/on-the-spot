@@ -36,7 +36,7 @@ export default function EmergencyMarquee() {
         </a>
       </span>
       <span className="px-8" aria-hidden="true">•</span>
-      <span className="px-8">$250 after-hours call-out fee applies outside shop hours</span>
+      <span className="px-8">$250 call-out fee on every roadside call and after-hours shop service</span>
       <span className="px-8" aria-hidden="true">•</span>
     </>
   )

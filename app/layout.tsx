@@ -15,7 +15,7 @@ const jsonLd = {
   "@type": "AutoRepair",
   "name": "On The Spot Repair Service & Tires",
   "alternateName": "On The Spot Repair Services & Tires, Inc.",
-  "description": "Professional mechanic and tire shop serving cars, semi trucks, trailers, refrigerated reefers, RVs, and buses. Computer diagnostics and 24/7 mobile roadside assistance ($250 after-hours call-out fee applies).",
+  "description": "Professional mechanic and tire shop serving cars, semi trucks, trailers, refrigerated reefers, RVs, and buses. Computer diagnostics and 24/7 mobile roadside assistance ($250 call-out fee applies).",
   "url": "https://www.onthespotrepairservicestires.com",
   "telephone": "+14788183967",
   "email": "onthespotrepair23@gmail.com",
@@ -117,7 +117,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: 'Tire Repair & Truck Repair in Unadilla, GA - On The Spot Repair Services & Tires',
   description:
-    '24/7 emergency tire service in Unadilla, GA ($250 after-hours call-out fee applies). Truck & tire repair for semis & cars. Shop: Mon-Fri 8-5, Sat 8-12.',
+    '24/7 emergency tire service in Unadilla, GA ($250 call-out fee applies). Truck & tire repair for semis & cars. Shop: Mon-Fri 8-5, Sat 8-12.',
   keywords: [
     'mechanic Unadilla GA',
     'tire shop Unadilla',
@@ -135,7 +135,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'On The Spot Repair Services & Tires',
     description:
-      'Full-service mechanic and tire shop serving cars, semi trucks, trailers, RVs, and buses in Unadilla, GA. 24/7 mobile roadside assistance ($250 after-hours call-out fee applies).',
+      'Full-service mechanic and tire shop serving cars, semi trucks, trailers, RVs, and buses in Unadilla, GA. 24/7 mobile roadside assistance ($250 call-out fee applies).',
     url: SITE_URL,
     siteName: 'On The Spot Repair Service & Tires',
     type: 'website',
@@ -153,7 +153,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'On The Spot Repair Services & Tires',
     description:
-      '24/7 emergency tire service in Unadilla, GA ($250 after-hours call-out fee applies). Semis, trailers, reefers, RVs & cars.',
+      '24/7 emergency tire service in Unadilla, GA ($250 call-out fee applies). Semis, trailers, reefers, RVs & cars.',
     images: ['/og-image.jpg'],
   },
   icons: {
