@@ -34,12 +34,27 @@ const jsonLd = {
     "latitude": 32.26042556762695,
     "longitude": -83.7447509765625
   },
+  // GBP shows the listing open 24/7 because dispatch answers around the clock.
+  // The walk-in shop keeps shorter hours, spelled out in shopHours below, so the
+  // two are never conflated.
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "00:00",
       "closes": "23:59"
+    }
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Emergency roadside service",
+      "value": "Available 24 hours a day, 7 days a week (call-out fee applies)"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Walk-in shop hours",
+      "value": "Monday-Friday 8:00 AM-5:00 PM, Saturday 8:00 AM-12:00 PM. Sundays closed, call-out available."
     }
   ],
   "areaServed": {

@@ -123,12 +123,25 @@ export default async function TownPage({ params }: TownPageProps) {
       },
       geoRadius: "48280",
     },
+    // 24/7 dispatch availability, with walk-in shop hours stated separately.
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
         opens: "00:00",
         closes: "23:59",
+      },
+    ],
+    additionalProperty: [
+      {
+        "@type": "PropertyValue",
+        name: "Emergency roadside service",
+        value: "Available 24 hours a day, 7 days a week (call-out fee applies)",
+      },
+      {
+        "@type": "PropertyValue",
+        name: "Walk-in shop hours",
+        value: "Monday-Friday 8:00 AM-5:00 PM, Saturday 8:00 AM-12:00 PM. Sundays closed, call-out available.",
       },
     ],
     priceRange: "$-$$$",
