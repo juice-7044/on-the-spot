@@ -1,18 +1,15 @@
 import { MetadataRoute } from 'next'
 import { SITE_URL, TOWN_SLUGS } from '@/lib/towns-data'
 
-const SITE_LAST_MODIFIED = new Date('2026-09-07T00:00:00.000Z')
+const SITE_LAST_MODIFIED = new Date('2026-11-09T00:00:00.000Z')
 
+// Only real, indexable routes. The old /services, /about, /24-7-roadside,
+// /service-area, /hours, /contact and /reviews URLs are homepage sections now
+// (301s in next.config.mjs) and must never be listed here.
 const staticPages = [
   '',
-  'services',
-  'about',
-  '24-7-roadside',
-  'service-area',
-  'hours',
-  'contact',
   'careers',
-  'reviews',
+  'were-hiring',
 ] as const
 
 export default function sitemap(): MetadataRoute.Sitemap {

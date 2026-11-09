@@ -28,6 +28,23 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  // Legacy section URLs now live as homepage anchors. These 301s preserve any
+  // inbound links and keep the old /services, /about etc. from 404ing.
+  async redirects() {
+    return [
+      { source: '/services', destination: '/#services', permanent: true },
+      { source: '/about', destination: '/#about', permanent: true },
+      { source: '/24-7-roadside', destination: '/#roadside', permanent: true },
+      { source: '/service-area', destination: '/#service-area', permanent: true },
+      { source: '/hours', destination: '/#hours', permanent: true },
+      { source: '/contact', destination: '/#contact', permanent: true },
+      { source: '/reviews', destination: '/#reviews', permanent: true },
+      // Lilly page was retired in the town-page redesign; send it to the
+      // nearest active Dooly County town page instead of a 404.
+      { source: '/lilly', destination: '/unadilla', permanent: true },
+    ]
+  },
   images: {
     unoptimized: true,
   },

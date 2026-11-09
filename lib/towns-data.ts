@@ -3,9 +3,11 @@
 // Used by the homepage schema, the Reviews section, and every town-page schema so the
 // aggregateRating markup never conflicts across the site.
 export const SITE_URL = "https://www.onthespotrepairservicestires.com"
-export const GBP_RATING = 4.4
-export const GBP_REVIEW_COUNT = 35
+export const GBP_RATING = 4.6
+export const GBP_REVIEW_COUNT = 59
 export const GBP_REVIEW_URL = "https://g.page/r/CRevmpAtetKCEBM/review"
+// Canonical Google Business Profile listing URL (Maps CID for the Unadilla location)
+export const GBP_PROFILE_URL = "https://www.google.com/maps?cid=9426731306158042903"
 
 export interface TownData {
   slug: string

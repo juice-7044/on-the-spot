@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import { Analytics } from '@vercel/analytics/next'
-import { SITE_URL, GBP_RATING, GBP_REVIEW_COUNT } from '@/lib/towns-data'
+import { SITE_URL, GBP_RATING, GBP_REVIEW_COUNT, GBP_PROFILE_URL } from '@/lib/towns-data'
 import './globals.css'
 
 const inter = Inter({
@@ -37,15 +37,9 @@ const jsonLd = {
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "08:00",
-      "closes": "17:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday",
-      "opens": "08:00",
-      "closes": "12:00"
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
     }
   ],
   "areaServed": {
@@ -78,7 +72,8 @@ const jsonLd = {
     "worstRating": "1"
   },
   "sameAs": [
-    "https://www.facebook.com/OntheSpotRepairServices/"
+    "https://www.facebook.com/OntheSpotRepairServices/",
+    GBP_PROFILE_URL
   ]
 }
 
@@ -102,7 +97,8 @@ const organizationJsonLd = {
     "addressCountry": "US"
   },
   "sameAs": [
-    "https://www.facebook.com/OntheSpotRepairServices/"
+    "https://www.facebook.com/OntheSpotRepairServices/",
+    GBP_PROFILE_URL
   ]
 }
 
@@ -117,7 +113,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: 'Tire Repair & Truck Repair in Unadilla, GA - On The Spot Repair Services & Tires',
   description:
-    '24/7 emergency tire service in Unadilla, GA ($250 call-out fee applies). Truck & tire repair for semis & cars. Shop: Mon-Fri 8-5, Sat 8-12.',
+    '24/7 emergency tire service in Unadilla, GA ($250 call-out fee applies). Truck & tire repair for semis & cars. 24/7 roadside service; walk-in shop Mon-Fri 8-5, Sat 8-12.',
   keywords: [
     'mechanic Unadilla GA',
     'tire shop Unadilla',
